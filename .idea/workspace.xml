@@ -7,44 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f22bfc7-31f8-4d08-9f1f-8d471194acfb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/details.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/includes/footer.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/includes/header.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/announcement.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/comment_input.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/comment_input2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/comments.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/facebook.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/footer_logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/instagram.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/menu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/news-reporter-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/news-reporter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/reactions/reaction_1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/reactions/reaction_2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/reactions/reaction_3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/reactions/reaction_4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/reactions/reaction_5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/totalviews.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/contents/twitter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/css/animations.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/css/comments.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/details_news001.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/fonts/Open_Sans_Condensed/LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/fonts/Open_Sans_Condensed/OpenSansCondensed-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/js/jquery-3.3.1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/js/scripts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/news001.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/news001_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/news001_2.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/main/resources/news002.jpg" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/controller/main/MainServlet.java" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/web/static/main/includes/header.jsp" afterPath="$PROJECT_DIR$/web/static/main/includes/header.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,18 +24,40 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/main/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="210">
+              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/static/main/includes/footer.jsp">
+      <file leaf-file-name="MainServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/main/MainServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="News.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/News.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -86,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/main/includes/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="283">
+              <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -101,10 +88,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -162,7 +149,6 @@
         <option value="$PROJECT_DIR$/web/static/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/web/static/jsp/admin/main.jsp" />
         <option value="$PROJECT_DIR$/web/static/jsp/admin/login.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/admin.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/AdminDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Config.java" />
@@ -180,10 +166,12 @@
         <option value="$PROJECT_DIR$/web/static/admin/css/new.css" />
         <option value="$PROJECT_DIR$/web/static/admin/jsp/new.jsp" />
         <option value="$PROJECT_DIR$/web/static/admin/js/new.js" />
-        <option value="$PROJECT_DIR$/web/static/main/includes/header.jsp" />
         <option value="$PROJECT_DIR$/web/static/main/details.jsp" />
         <option value="$PROJECT_DIR$/web/static/main/index.jsp" />
         <option value="$PROJECT_DIR$/web/static/main/includes/footer.jsp" />
+        <option value="$PROJECT_DIR$/web/static/main/includes/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/main/MainServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -267,7 +255,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewsMediaWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -327,6 +315,12 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsMediaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsMediaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -605,12 +599,12 @@
       <workItem from="1517854781052" duration="556000" />
       <workItem from="1517857223295" duration="29566000" />
       <workItem from="1517931515526" duration="7401000" />
-      <workItem from="1517939242522" duration="1848000" />
+      <workItem from="1517939242522" duration="2988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40472000" />
+    <option name="totallyTimeSpent" value="41612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="6" />
@@ -671,14 +665,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -850,20 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/admin/LogoutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/AdminDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/admin/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -984,66 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/admin/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/NewsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/main/details.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/main/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1056,10 +972,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/main/details.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/main/includes/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/main/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/NewsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/admin/LogoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/admin/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/main/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
         </state>
       </provider>

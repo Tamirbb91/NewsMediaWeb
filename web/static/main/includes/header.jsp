@@ -23,15 +23,15 @@
 <header>
     <div class="header">
         <div class="header_icon">
-            <a href="#">
-                <img width="160px" src="resources/contents/logo.png" alt="readmore_logo" />
+            <a href="<c:url value="index.jsp"/>">
+                <img width="160px" src="<c:url value="resources/contents/logo.png"/>" alt="Readmore..." />
             </a>
         </div>
         <div class="vl"></div>
         <div class="header_menu_btn">
             <div class="dropdown">
                 <a id="menu_dropbtn" class="dropbtn" href="#">
-                    <img width="25px" src="resources/contents/menu.png" alt="menu_logo" />
+                    <img width="25px" src="<c:url value="resources/contents/menu.png" />" alt="dropdown menu" />
                 </a>
                 <div class="dropdown-content">
                     <a href="#">BREAKING!</a>

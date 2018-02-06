@@ -3,6 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <!--Servlet configurations [START]-->
+
     <servlet>
         <servlet-name>loginServlet</servlet-name>
         <servlet-class>com.controller.admin.LoginController</servlet-class>
@@ -12,8 +14,23 @@
         <servlet-name>loginServlet</servlet-name>
         <url-pattern>/admin</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>mainServlet</servlet-name>
+        <servlet-class>com.controller.main.MainServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>mainServlet</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+    <!--Servlet configurations [END]-->
+    <!--Listener configurations [START]-->
 
     <listener>
         <listener-class>com.Config</listener-class>
     </listener>
+
+    <!--Listener configurations [END]-->
 </web-app>
