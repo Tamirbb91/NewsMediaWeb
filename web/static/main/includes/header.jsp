@@ -12,26 +12,26 @@
 <head>
     <title>Readmore</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="<c:url value="resources/css/style.css" /> " />
-    <link rel="stylesheet" type="text/css" href="<c:url value="resources/css/comments.css" /> " />
-    <link rel="stylesheet" type="text/css" href="<c:url value="resources/css/animations.css" />" />
-    <link rel="icon" type="image/png" href="<c:url value="resources/contents/announcement.png"/>">
-    <script type="text/javascript" src="<c:url value="resources/js/jquery-3.3.1.js"/>"></script>
-    <script type="text/javascript" src="<c:url value="resources/js/scripts.js"/>"></script>
+    <link rel="stylesheet" type="text/css" href="<c:url value="static/main/resources/css/style.css"/>" />
+    <link rel="stylesheet" type="text/css" href="<c:url value="static/main/resources/css/comments.css" /> " />
+    <link rel="stylesheet" type="text/css" href="<c:url value="static/main/resources/css/animations.css" />" />
+    <link rel="icon" type="image/png" href="<c:url value="static/main/resources/contents/announcement.png"/>">
+    <script type="text/javascript" src="<c:url value="static/main/resources/js/jquery-3.3.1.js"/>"></script>
+    <script type="text/javascript" src="<c:url value="static/main/resources/js/scripts.js"/>"></script>
 </head>
 <body>
 <header>
     <div class="header">
         <div class="header_icon">
-            <a href="<c:url value="index.jsp"/>">
-                <img width="160px" src="<c:url value="resources/contents/logo.png"/>" alt="Readmore..." />
+            <a href="<c:url value="/main"/>">
+                <img width="160px" src="<c:url value="static/main/resources/contents/logo.png"/>" alt="Readmore..." />
             </a>
         </div>
         <div class="vl"></div>
         <div class="header_menu_btn">
             <div class="dropdown">
                 <a id="menu_dropbtn" class="dropbtn" href="#">
-                    <img width="25px" src="<c:url value="resources/contents/menu.png" />" alt="dropdown menu" />
+                    <img width="25px" src="<c:url value="static/main/resources/contents/menu.png" />" alt="dropdown menu" />
                 </a>
                 <div class="dropdown-content">
                     <a href="#">BREAKING!</a>

@@ -13,7 +13,7 @@ function checkValidation(){
 		comment_alertparag.text("Lets be creative! Write a comment with at least 100 characters to be creative!");
 		if(patternBody.test(comment_body.val())){
 			comment_alertparag.removeClass("comment_alert");
-			$("#comment_send").html("<img width='25' src='resources/loading.gif' />");
+			$("#comment_send").html("<img width='25' src='static/main/resources/contents/loading.gif' />");
 		}else{
 			comment_alertparag.addClass("comment_alert");	
 			comment_body.focus();
@@ -26,5 +26,5 @@ function checkValidation(){
 }
 
 function clickReadmore(){
-	$("#btn_readmore").html("<img width='30' src='resources/loading.gif' />");
+	$("#btn_readmore").html("<img width='30' src='static/main/resources/contents/loading.gif' />");
 }
