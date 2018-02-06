@@ -1,0 +1,17 @@
+{
+  "tamirsnarf@gmail.com": {
+    "firstName": "Tamir",
+    "lastName": "Batmunkh",
+    "email": "tamirsnarf@gmail.com",
+    "password": "Password",
+    "image": "https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
+  },
+
+  "hs.khosbayar@gmail.com": {
+    "firstName": "Khosbayar",
+    "lastName": "Buyandalai",
+    "email": "hs.khosbayar@gmail.com",
+    "password": "Password",
+    "image": ""
+  }
+}

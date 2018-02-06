@@ -1,4 +1,4 @@
 package com.filter;
 
-public class AuthFilter {
+public class AuthFilter{
 }

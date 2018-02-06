@@ -1,0 +1,167 @@
+body{
+    background-color: #eee;
+}
+
+#header{
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    /*box-shadow: 3px 0px 2px 4px rgba(50, 50, 50, 0.5);*/
+    background-color: white;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+}
+
+#header > img {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#admin_info{
+    float:right;
+    margin-right: 20px;
+    margin-top: 5px;
+    height: 40px;
+}
+
+#admin_name{
+    vertical-align: 15px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#admin_profile {
+    border-radius: 40px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#admin_profile > img{
+    height: 100%;
+}
+
+#logout{
+    height: 100%;
+    vertical-align: 8px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#logout svg {
+    fill: #424242;
+}
+
+#logout svg:hover {
+    fill: #757575;
+}
+
+#toast {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: azure;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    font-weight: bold;
+    display: none;
+    line-height: 50px;
+}
+
+
+#contents{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.my_post{
+    height: 50px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px 20px 20px 0px;
+    margin: 15px;
+}
+
+.my_post_title{
+    margin-top: 15px;
+    float: left;
+    clear: left;
+}
+
+.edit_post{
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.edit_post svg{
+    cursor: pointer;
+    fill: #424242;
+}
+
+.edit_post svg:hover{
+    fill:#757575;
+}
+
+.delete_post{
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.delete_post svg{
+    cursor: pointer;
+    fill: #f44336;
+}
+
+.delete_post svg:hover{
+    fill: #e57373;
+}
+
+.my_post_super{
+    float: left;
+}
+
+.my_post_category{
+    display: inline-block;
+}
+
+.my_post_view_count{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 12px;
+    color: #444;
+}
+
+.my_post_view_count svg{
+    fill: #444;
+}
+
+.my_post_view_count_icon{
+    display: inline-block;
+    vertical-align: bottom;
+    padding-top: 0;
+}
+
+.my_post_view_count_number{
+    display: inline-block;
+    font-size: 11pt;
+}
+
+.my_post_actions{
+    float: right;
+    margin-top: -5px;
+}
+
+.my_post_date{
+    color: #444;
+    font-size: 11pt;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+
+
