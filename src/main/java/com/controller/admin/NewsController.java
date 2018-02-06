@@ -42,7 +42,7 @@ public class NewsController extends HttpServlet{
             e.printStackTrace();
         }
 
-        req.getRequestDispatcher("/static/admin/jsp/login.jsp").forward(req, resp);
+        resp.sendRedirect("/static/admin/jsp/login.jsp");
     }
 
     @Override
