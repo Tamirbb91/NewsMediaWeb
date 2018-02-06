@@ -10,15 +10,21 @@
 <html>
 <head>
     <title>Admin Panel</title>
-    <link rel="stylesheet" type="text/css" href="../css/home.css">
-    <script src="../../js/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../js/home.js"></script>
+    <link rel="stylesheet" type="text/css" href="<c:url value="static/admin/css/home.css"/>">
+    <script src="<c:url value="static/admin/js/jquery.min.js"/>" type="text/javascript"></script>
+    <script type="text/javascript" src="<c:url value="static/admin/js/home.js"/>"></script>
 </head>
 <body>
     <div id="header">
-        <img src="../image/unread.png">
-        <img src="../image/menu.png">
+        <img src="<c:url value="static/admin/image/unread.png"/>">
+        <img src="<c:url value="static/admin/image/menu.png"/>">
         <div id="admin_info">
+            <div id="add_new_post">
+                <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                </svg>
+            </div>
             <div id="admin_profile">
                 <img src="${admin.image}">
             </div>

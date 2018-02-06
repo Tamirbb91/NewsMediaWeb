@@ -11,7 +11,7 @@
 <head>
     <title>Admin Panel</title>
     <link rel="stylesheet" type="text/css" href="../css/new.css">
-    <script src="../../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../js/new.js"></script>
 </head>
 <body>

@@ -10,7 +10,7 @@
 <head>
     <title>Admin login</title>
     <link rel="stylesheet" type="text/css" href="../css/login.css">
-    <script src="../../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../js/login.js"></script>
 </head>
 <body>

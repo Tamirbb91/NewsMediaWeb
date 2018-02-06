@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.model.News;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class NewsDAO {
@@ -29,6 +30,7 @@ public class NewsDAO {
 
     public void addNews(News item){
         item.setId(generateId());
+        item.setPublishedDate(new Date());
         newsList.add(item);
     }
 
