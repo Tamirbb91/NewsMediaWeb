@@ -9,11 +9,30 @@
     <div class="footer">
         <p class="footer_corners_label">CORNERS</p>
         <p class="footer_corners_menu">
-            <a href="/">BREAKING!</a><br />
-            <a href="/">BUSINESS</a><br />
-            <a href="/">THIS IS HOW I WORK</a><br />
-            <a href="/">APPLICATION REVIEW</a><br />
-            <a href="/">BOOK REVIEW</a><br />
+            <a href="
+                            <c:url value="/category">
+                                <c:param name="type" value="BREAKING"/>
+                            </c:url>
+                            ">BREAKING!</a><br />
+            <a href="
+                            <c:url value="/category">
+                                <c:param name="type" value="BUSINESS"/>
+                            </c:url>">BUSINESS</a><br />
+            <a href="
+                            <c:url value="/category">
+                                <c:param name="type" value="HOW_I_WORK"/>
+                            </c:url>
+                            ">THIS IS HOW I WORK</a><br />
+            <a href="
+                            <c:url value="/category">
+                                <c:param name="type" value="APP_REVIEW"/>
+                            </c:url>
+                            ">APPLICATION REVIEW</a><br />
+            <a href="
+                            <c:url value="/category">
+                                <c:param name="type" value="BOOK_REVIEW"/>
+                            </c:url>
+                            ">BOOK REVIEW</a>
         </p>
         <hr class="footer_silverline" />
         <div class="footer_logo"><img width="200px" src="<c:url value="static/main/resources/contents/footer_logo.png"/>" alt="readmore_logo" />	</div>
