@@ -10,14 +10,14 @@
 <html>
 <head>
     <title>Admin Panel</title>
-    <link rel="stylesheet" type="text/css" href="../css/home.css">
-    <script src="../../js/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../js/home.js"></script>
+    <link rel="stylesheet" type="text/css" href="<c:url value="static/admin/css/home.css"/>">
+    <script src="<c:url value="static/admin/js/jquery.min.js"/>" type="text/javascript"></script>
+    <script type="text/javascript" src="<c:url value="static/admin/js/home.js"/>"></script>
 </head>
 <body>
     <div id="header">
-        <img src="../image/unread.png">
-        <img src="../image/menu.png">
+        <img src="<c:url value="static/admin/image/unread.png"/>">
+        <img src="<c:url value="static/admin/image/menu.png"/>">
         <div id="admin_info">
             <div id="admin_profile">
                 <img src="${admin.image}">

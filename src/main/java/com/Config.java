@@ -11,7 +11,7 @@ public class Config implements ServletContextListener{
     @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         servletContextEvent.getServletContext().setAttribute("admin", new AdminDAO());
-        servletContextEvent.getServletContext().setAttribute("newsList", new NewsDAO());
+        servletContextEvent.getServletContext().setAttribute("news", new NewsDAO());
     }
 
     @Override

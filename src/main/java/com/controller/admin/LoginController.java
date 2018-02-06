@@ -19,7 +19,9 @@ import java.util.List;
 public class LoginController extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        HttpSession session = req.getSession();
+        session.setMaxInactiveInterval(-1);
+        session.invalidate();
     }
 
     @Override
@@ -36,7 +38,7 @@ public class LoginController extends HttpServlet{
                 HttpSession session = req.getSession();
                 session.setAttribute("admin", list.get(username));
                 List<News> myPost = new ArrayList<>();
-                List<News> newsList = ((NewsDAO) this.getServletContext().getAttribute("newsList")).newsList;
+                List<News> newsList = ((NewsDAO) this.getServletContext().getAttribute("news")).newsList;
                 for(News item : newsList){
                     if(item.getAdmin().getEmail().equals(username)){
                         myPost.add(item);

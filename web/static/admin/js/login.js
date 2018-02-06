@@ -31,7 +31,7 @@ function login(){
         }
 
         if(result["result"] === 'success'){
-            window.location = "/static/admin/jsp/home.jsp";
+            window.location = "/news";
         }
     })
 }

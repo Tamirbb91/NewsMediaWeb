@@ -12,8 +12,22 @@
         <servlet-name>loginServlet</servlet-name>
         <url-pattern>/admin</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>newsServlet</servlet-name>
+        <servlet-class>com.controller.admin.NewsController</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>newsServlet</servlet-name>
+        <url-pattern>/news</url-pattern>
+    </servlet-mapping>
 
     <listener>
         <listener-class>com.Config</listener-class>
     </listener>
+    
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
 </web-app>
