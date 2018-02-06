@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #eee;
 }
@@ -79,7 +84,9 @@ body{
 }
 
 #title{
-
+    border: 1.5px solid #4b2c20;
+    padding: 10px;
+    border-radius: 15px 15px 15px 0px;
 }
 
 #title_value{
@@ -89,11 +96,21 @@ body{
 }
 
 #category{
+    border: 1.5px solid #4b2c20;
+    padding: 15px;
+    border-radius: 0px 15px 15px 15px;
+    margin-top: 12px;
+}
 
+#category_value{
+    margin-top: 20px;
 }
 
 #cover_image{
-
+    border: 1.5px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 0px 15px 0px;
+    margin-top: 12px;
 }
 
 #cover_image_value{
@@ -101,7 +118,10 @@ body{
 }
 
 #intro_paragraph{
-
+    border: 1.5px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 12px;
 }
 
 #intro_paragraph_value {
@@ -111,11 +131,22 @@ body{
 }
 
 #attributes{
-
+    border: 1.5px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 12px;
 }
 
 .attribute{
+    border: 1px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 12px;
     margin-left: 30px;
+}
+
+.attribute_div{
+    text-align: justify;
 }
 
 .attribute_key{
@@ -127,19 +158,48 @@ body{
 }
 
 .add_attribute{
-    margin-left: 30px;
+    background-color: #4b2c20;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-left: 30px;
+}
+
+.add_attribute:hover{
+    opacity: 0.7;
+}
+
+.add_attribute svg{
+    fill: white;
+}
+
+.add_attribute span{
+    color: white;
+    vertical-align: super;
 }
 
 #sections{
-
+    border: 1.5px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 12px;
 }
 
 .section{
+    border: 1px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 12px;
     margin-left: 30px;
 }
 
 .section_title{
-
+    border: 1px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 12px;
 }
 
 .section_title_value{
@@ -147,7 +207,10 @@ body{
 }
 
 .section_paragraph{
-
+    border: 1px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 12px;
 }
 
 .section_paragraph_value{
@@ -155,10 +218,17 @@ body{
 }
 
 .section_images{
-
+    border: 1px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 12px;
 }
 
 .section_image{
+    border: 1px solid #4b2c20;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 12px;
     margin-left: 30px;
 }
 
@@ -167,19 +237,49 @@ body{
 }
 
 .section_image_add{
-    margin-left: 30px;
+    background-color: #4b2c20;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-left: 30px;
+}
+
+.section_image_add:hover{
+    opacity: 0.7;
 }
 
 .section_image_add svg{
-
+    fill: white;
 }
 
-.section_image_add svg:hover{
-
+.section_image_add span{
+    color: white;
+    vertical-align: super;
 }
 
 .section_add{
-    margin-left: 30px;
+    background-color: #4b2c20;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-left: 30px;
+}
+
+.section_add:hover{
+    opacity: 0.7;
+}
+
+.section_add svg{
+    fill: white;
+}
+
+.section_add span{
+    color: white;
+    vertical-align: super;
 }
 
 label {
@@ -205,9 +305,9 @@ svg:hover{
     text-align: center;
     width: 50%;
     margin: 10px auto;
-    background-color: #0077dd;
     cursor: pointer;
     border-radius: 15px;
+    background-color: #0077dd;
 }
 
 #publish span{
@@ -221,4 +321,13 @@ svg:hover{
 
 #publish:hover{
     opacity: 0.7;
+}
+
+h4{
+    /*margin-top:25px;*/
+    color: #0077dd;
+}
+
+textarea, input[type=text]{
+    margin-top: 10px;
 }

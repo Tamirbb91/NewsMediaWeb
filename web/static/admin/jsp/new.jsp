@@ -40,11 +40,13 @@
     </div>
     <div id="category">
         <h4>Category</h4>
+        <div id="category_value">
         <label><input name="category"  type="radio" value="BREAKING" checked>Breaking</label>
          <label><input name="category" type="radio" value="HOW_I_WORK">How I work</label>
          <label><input name="category" type="radio" value="APP_REVIEW">Application review</label>
          <label><input name="category" type="radio" value="BOOK_REVIEW">Book review</label>
          <label><input name="category" type="radio" value="BUSINESS">Business</label>
+        </div>
     </div>
     <div id="cover_image">
         <h4>Cover image</h4>
@@ -58,19 +60,19 @@
         <h4>Attributes</h4>
         <div class="attribute">
             <h4>Attribute</h4>
-            <input class="attribute_key" type="text" value="" placeholder="Key">
-            <input class="attribute_value" type="text" value="" placeholder="Value">
+            <div class="attribute_div">
+                <input class="attribute_key" type="text" value="" placeholder="Key">
+                <input class="attribute_value" type="text" value="" placeholder="Value">
+            </div>
         </div>
         <div class="add_attribute">
-            <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
-                <path d="M0 0h24v24H0z" fill="none"/>
-            </svg>
+            <span>Add attribute</span>
         </div>
     </div>
     <div id="sections">
         <h4>Sections</h4>
         <div class="section">
+            <h4>Section</h4>
             <div class="section_title">
                 <h4>Section title</h4>
                 <textarea class="section_title_value"></textarea>
@@ -86,18 +88,12 @@
                     <input class="sectionImage" type="text" value="">
                 </div>
                 <div class="section_image_add">
-                    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
-                        <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
+                    <span>Add image</span>
                 </div>
             </div>
         </div>
         <div class="section_add">
-            <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
-                <path d="M0 0h24v24H0z" fill="none"/>
-            </svg>
+            <span>Add section</span>
         </div>
     </div>
     <div id="publish">
