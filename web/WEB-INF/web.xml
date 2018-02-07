@@ -37,7 +37,7 @@
     
     <servlet>
         <servlet-name>categoryServlet</servlet-name>
-        <servlet-class>com.controller.main.CatergoryServlet</servlet-class>
+        <servlet-class>com.controller.main.CategoryServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>categoryServlet</servlet-name>
@@ -51,6 +51,15 @@
     <servlet-mapping>
         <servlet-name>detailsServlet</servlet-name>
         <url-pattern>/details</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>addCommentServlet</servlet-name>
+        <servlet-class>com.controller.main.AddCommentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCommentServlet</servlet-name>
+        <url-pattern>/addcomment</url-pattern>
     </servlet-mapping>
 
     <!--Servlet configurations [END]-->

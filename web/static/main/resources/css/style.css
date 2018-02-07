@@ -60,6 +60,7 @@ a {
 }
 
 .details_container {
+    margin-top: 20px;
     background-color: #fff;
     text-align: center;
 }
@@ -197,7 +198,7 @@ a {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     margin-bottom: 20px;
-    margin-top:20px;
+    margin-top: 20px;
     font-size: 18pt;
 }
 
@@ -215,7 +216,7 @@ a {
     font-size: 25pt;
     font-weight: bold;
     max-width: 960px;
-    max-height: 96px;
+    min-height: 96px;
     padding-bottom: 20px;
     padding-right: 20px;
     padding-left: 20px;
@@ -543,4 +544,50 @@ a {
     display: block;
     background-color: transparent;
     border: 0;
+}
+
+#takemetotop {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14pt;
+    display: block;
+    max-width: 70px;
+    height: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #0077dd;
+    color: #fff;
+}
+
+.reactions_values {
+    /*width: 35px;*/
+    max-height: 80px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.reactions_values > div {
+    background-color: #e74c3c;
+    padding: 0;
+    width: 35px;
+    display: inline-block;
+}
+
+#reactions_value_happy{
+
+}
+
+#reactions_value_good{
+
+}
+#reactions_value_normal{
+
+}
+
+#reactions_value_bad{
+
+}
+
+#reactions_value_hell{
+
 }

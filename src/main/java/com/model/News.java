@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 @JsonAutoDetect
@@ -20,6 +21,7 @@ public class News {
     private int viewCount = 0;
     private List<Comment> comments = new ArrayList<>();
     private Date publishedDate;
+    private HashMap<String,Integer> emotionPoints = new HashMap<>();
 
     public News(){
 
@@ -110,6 +112,10 @@ public class News {
         this.viewCount = viewCount;
     }
 
+    public void incrementViewCount(){
+        this.viewCount++;
+    }
+
     public List<Comment> getComments() {
         return comments;
     }
@@ -118,11 +124,23 @@ public class News {
         this.comments = comments;
     }
 
+    public void addComment(Comment comment){
+        comments.add(comment);
+    }
+
     public Date getPublishedDate() {
         return publishedDate;
     }
 
     public void setPublishedDate(Date publishedDate) {
         this.publishedDate = publishedDate;
+    }
+
+    public HashMap<String, Integer> getEmotionPoints() {
+        return emotionPoints;
+    }
+
+    public void setEmotionPoints(HashMap<String, Integer> emotionPoints) {
+        this.emotionPoints = emotionPoints;
     }
 }

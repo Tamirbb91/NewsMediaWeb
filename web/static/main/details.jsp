@@ -7,7 +7,7 @@
 --%>
 <%@ include file="includes/header.jsp" %>
 
-<div class="details_container">
+<div class="details_container" id="detailtitle">
     <img src="<c:out value="${cnew.coverImage}"/>" alt="<c:out value="${cnew.title}"/>"/>
     <div class="news_body">
         <div class="news_header">
@@ -72,13 +72,22 @@
                 <hr/>
                 <div class="news_aside_published_by">
                     <p>PUBLISHED BY:</p>
-                    <p><a class="publisher section_others" href="#"><c:out value="${cnew.admin.firstName} ${cnew.admin.lastName}"/></a></p>
+                    <p><a class="publisher section_others" href="#"><c:out
+                            value="${cnew.admin.firstName} ${cnew.admin.lastName}"/></a></p>
                     <a href="#"><img src="<c:url value="${cnew.admin.image}"/>"
                                      alt="<c:out value="${cnew.admin.firstName}"/>"
                                      width="50px"/></a>
                 </div>
                 <hr/>
                 <div class="news_aside_reactions">
+                    <div class="reactions_values">
+                        <c:forEach items="${cnew.emotionPoints}" var="emotion">
+                        <div id="reactions_value_<c:out value="${emotion.key}"/>" style="height: <c:out value="${emotion.value*1}" />px">
+
+                        </div>
+                        </c:forEach>
+                    </div>
+
                     <a href="#"><img src="<c:url value="static/main/resources/contents/reactions/reaction_1.png"/>"
                                      alt="Happy"
                                      width="35px"></a>
@@ -136,7 +145,8 @@
         </div>
     </div>
     <div class="timeline_input_title">
-        <span><img src="<c:out value="static/main/resources/contents/comment_input2.png" />" alt="Comment input" width="25px"/></span><span>WRITE A COMMENT</span>
+        <span><img src="<c:out value="static/main/resources/contents/comment_input2.png" />" alt="Comment input"
+                   width="25px"/></span><span>WRITE A COMMENT</span>
     </div>
     <div class="timeline_comments">
         <div class="timeline_input">
@@ -144,55 +154,32 @@
             </div>
             <div><textarea placeholder="Write your comment here" rows="6" name="comment_body" required
                            id="comment_body"></textarea></div>
+            <input type="hidden" id="cnewsid" value="${cnew.id}" />
             <div>
                 <button id="comment_send">POST IT</button>
             </div>
-            <p id="comment_alertparag">Lets be creative! Write a comment with at least 100 characters to be
+            <p id="comment_alertparag">Lets be creative! Write a comment with at least 10 characters to be
                 creative!</p>
         </div>
-        <ul class="timeline">
-            <!-- Item 1 -->
-            <li>
-                <div class="direction-r">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag">Lorem ipsum.</span>
-                        <span class="time-wrapper"><span class="time">Feb 2015</span></span>
+        <ul id="comment_timeline" class="timeline">
+            <c:forEach items="${cnew.comments}" var="cnewcomment" varStatus="commentStat">
+                <li>
+                    <div class="<c:choose><c:when test="${commentStat.index%2 eq 0}"><c:out value="direction-r" /></c:when><c:otherwise><c:out value="direction-l" /></c:otherwise></c:choose>">
+                        <div class="flag-wrapper">
+                            <span class="hexa"></span>
+                            <span class="flag"><c:out value="${cnewcomment.username}"/></span>
+                            <span class="time-wrapper"><span class="time"><c:out
+                                    value="${cnewcomment.date}"/></span></span>
+                        </div>
+                        <div class="desc"><c:out value="${cnewcomment.comment}"/>
+                        </div>
                     </div>
-                    <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation
-                        deserunt proident.
-                    </div>
-                </div>
-            </li>
-
-            <!-- Item 2 -->
-            <li>
-                <div class="direction-l">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag">Lorem ipsum Anim.</span>
-                        <span class="time-wrapper"><span class="time">Dec 2014</span></span>
-                    </div>
-                    <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip
-                        enim cupidatat laborum dolore.
-                    </div>
-                </div>
-            </li>
-
-            <!-- Item 3 -->
-            <li>
-                <div class="direction-r">
-                    <div class="flag-wrapper">
-                        <span class="hexa"></span>
-                        <span class="flag">Lorem Occaecat.</span>
-                        <span class="time-wrapper"><span class="time">July 2014</span></span>
-                    </div>
-                    <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat pariatur
-                        cillum cupidatat reprehenderit sit id dolor consectetur ut.
-                    </div>
-                </div>
-            </li>
+                </li>
+            </c:forEach>
         </ul>
+        <div>
+            <a id="takemetotop" href="#detailtitle">Take me to the top</a>
+        </div>
     </div>
 </div>
 

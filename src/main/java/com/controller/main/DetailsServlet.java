@@ -11,11 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-public class DetailsServlet extends HttpServlet{
+public class DetailsServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String newsid = req.getParameter("newsid");
-        if(newsid!=null) {
+        if (newsid != null) {
             List<News> news = ((NewsDAO) this.getServletContext().getAttribute("news")).newsList;
             News foundNews = null;
             for (News perNews : news) {
@@ -24,14 +24,15 @@ public class DetailsServlet extends HttpServlet{
                     break;
                 }
             }
-            if(foundNews!=null){
-                req.setAttribute("cnew",foundNews);
+            if (foundNews != null) {
+                foundNews.incrementViewCount();
+                req.setAttribute("cnew", foundNews);
                 RequestDispatcher dispatcher = req.getRequestDispatcher("static/main/details.jsp");
-                dispatcher.forward(req,resp);
-            }else{
+                dispatcher.forward(req, resp);
+            } else {
                 resp.sendRedirect("/main");
             }
-        }else{
+        } else {
             resp.sendRedirect("/main");
         }
 
