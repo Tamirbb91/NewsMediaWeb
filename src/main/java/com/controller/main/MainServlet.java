@@ -23,6 +23,7 @@ public class MainServlet extends HttpServlet {
             filteredNews.add(news.get(c));
             c++;
         }
+
         req.setAttribute("news", filteredNews);
         RequestDispatcher dispatcher = req.getRequestDispatcher("static/main/index.jsp");
         dispatcher.forward(req, resp);
