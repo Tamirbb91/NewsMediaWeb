@@ -88,6 +88,25 @@
         <servlet-name>addCommentServlet</servlet-name>
         <url-pattern>/addcomment</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>addEmotionPoint</servlet-name>
+        <servlet-class>com.controller.main.AddEmotionPointServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addEmotionPoint</servlet-name>
+        <url-pattern>/addemotionpoint</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>readmoreServlet</servlet-name>
+        <servlet-class>com.controller.main.ReadmoreServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>readmoreServlet</servlet-name>
+        <url-pattern>/readmore</url-pattern>
+    </servlet-mapping>
 
     <!--Servlet configurations [END]-->
     <!--Listener configurations [START]-->

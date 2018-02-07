@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainServlet extends HttpServlet {
@@ -17,7 +17,13 @@ public class MainServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<News> news = ((NewsDAO) this.getServletContext().getAttribute("news")).newsList;
-        req.setAttribute("news", news);
+        List<News> filteredNews = new ArrayList<>();
+        int c = 0;
+        while (c != 1) {
+            filteredNews.add(news.get(c));
+            c++;
+        }
+        req.setAttribute("news", filteredNews);
         RequestDispatcher dispatcher = req.getRequestDispatcher("static/main/index.jsp");
         dispatcher.forward(req, resp);
     }

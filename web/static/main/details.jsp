@@ -88,19 +88,19 @@
                         </c:forEach>
                     </div>
 
-                    <a href="#"><img src="<c:url value="static/main/resources/contents/reactions/reaction_1.png"/>"
+                    <a id="emotion1" class="anchoremotions"><img src="<c:url value="static/main/resources/contents/reactions/reaction_1.png"/>"
                                      alt="Happy"
                                      width="35px"></a>
-                    <a href="#"><img src="<c:url value="static/main/resources/contents/reactions/reaction_2.png"/>"
+                    <a id="emotion2" class="anchoremotions"><img src="<c:url value="static/main/resources/contents/reactions/reaction_2.png"/>"
                                      alt="Good"
                                      width="35px"></a>
-                    <a href="#"><img src="<c:url value="static/main/resources/contents/reactions/reaction_3.png"/>"
+                    <a id="emotion3" class="anchoremotions"><img src="<c:url value="static/main/resources/contents/reactions/reaction_3.png"/>"
                                      alt="Normal"
                                      width="35px"></a>
-                    <a href="#"><img src="<c:url value="static/main/resources/contents/reactions/reaction_4.png"/>"
+                    <a id="emotion4" class="anchoremotions"><img src="<c:url value="static/main/resources/contents/reactions/reaction_4.png"/>"
                                      alt="Bad"
                                      width="35px"></a>
-                    <a href="#"><img src="<c:url value="static/main/resources/contents/reactions/reaction_5.png"/>"
+                    <a id="emotion5" class="anchoremotions"><img src="<c:url value="static/main/resources/contents/reactions/reaction_5.png"/>"
                                      alt="Hell"
                                      width="35px"></a>
                 </div>
@@ -177,7 +177,7 @@
                 </li>
             </c:forEach>
         </ul>
-        <div>
+        <div class="takemetopdiv">
             <a id="takemetotop" href="#detailtitle">Take me to the top</a>
         </div>
     </div>

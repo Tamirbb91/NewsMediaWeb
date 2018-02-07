@@ -547,21 +547,27 @@ a {
 }
 
 #takemetotop {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
     font-size: 14pt;
     display: block;
-    max-width: 70px;
+    max-width: 150px;
     height: 20px;
     text-decoration: none;
     padding: 10px;
     background-color: #0077dd;
     color: #fff;
+    border-radius:20px;
+}
+
+.takemetopdiv{
+    text-align: center;
 }
 
 .reactions_values {
     /*width: 35px;*/
-    max-height: 80px;
+    max-height: 100px;
     padding: 0;
     margin-bottom: 5px;
 }
@@ -573,21 +579,8 @@ a {
     display: inline-block;
 }
 
-#reactions_value_happy{
-
-}
-
-#reactions_value_good{
-
-}
-#reactions_value_normal{
-
-}
-
-#reactions_value_bad{
-
-}
-
-#reactions_value_hell{
-
+#divreadmore{
+    /*max-width: 70px;*/
+    clear: right;
+    display: none;
 }

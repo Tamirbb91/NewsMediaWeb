@@ -21,7 +21,7 @@ public class News {
     private int viewCount = 0;
     private List<Comment> comments = new ArrayList<>();
     private Date publishedDate;
-    private HashMap<String,Integer> emotionPoints = new HashMap<>();
+    private HashMap<Integer,Integer> emotionPoints = new HashMap<>();
 
     public News(){
 
@@ -136,11 +136,11 @@ public class News {
         this.publishedDate = publishedDate;
     }
 
-    public HashMap<String, Integer> getEmotionPoints() {
+    public HashMap<Integer, Integer> getEmotionPoints() {
         return emotionPoints;
     }
 
-    public void setEmotionPoints(HashMap<String, Integer> emotionPoints) {
+    public void setEmotionPoints(HashMap<Integer, Integer> emotionPoints) {
         this.emotionPoints = emotionPoints;
     }
 }
