@@ -61,6 +61,33 @@
         <servlet-name>mainServlet</servlet-name>
         <url-pattern>/main</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>categoryServlet</servlet-name>
+        <servlet-class>com.controller.main.CategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>categoryServlet</servlet-name>
+        <url-pattern>/category</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>detailsServlet</servlet-name>
+        <servlet-class>com.controller.main.DetailsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>detailsServlet</servlet-name>
+        <url-pattern>/details</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>addCommentServlet</servlet-name>
+        <servlet-class>com.controller.main.AddCommentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCommentServlet</servlet-name>
+        <url-pattern>/addcomment</url-pattern>
+    </servlet-mapping>
 
     <!--Servlet configurations [END]-->
     <!--Listener configurations [START]-->

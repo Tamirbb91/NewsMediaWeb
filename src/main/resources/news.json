@@ -2,174 +2,188 @@
   {
     "id": "newsid_1",
     "title": "I'm National Book Foundation Executive Director Lisa Lucas, and This Is How I Work",
-    "category": "HOW_I_WORK",
+    "category": "BREAKING",
     "admin": {
-      "firstName":"Tamir",
+      "firstName": "Tamir",
       "lastName": "Batmunkh",
-      "email":"tamirsnarf@gmail.com",
+      "email": "tamirsnarf@gmail.com",
       "image": "https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
     },
     "coverImage": "https://i.kinja-img.com/gawker-media/image/upload/s--ELRJYHLb--/c_scale,fl_progressive,q_80,w_800/oy69qq9hgtcm2vhlsgf8.jpg",
     "introParagraph": "Since 1950 the National Book Foundation has awarded the National Book Award to authors such as Colson Whitehead, William Faulkner, Beverly Cleary, and Jesmyn Ward. The Foundation also runs several programs for readers and writers, including the BookUp after-school reading program. In March 2016 the Foundation hired Guernica publisher Lisa Lucas as executive director. We talked to Lucas about how she runs the Foundation day to day.",
     "attributes": [
       {
-        "title":"Location",
-        "body":"New York City"
+        "title": "Location",
+        "body": "New York City"
       },
       {
-        "title":"Current Gig",
-        "body":"Executive Director, National Book Foundation"
+        "title": "Current Gig",
+        "body": "Executive Director, National Book Foundation"
       },
       {
-        "title":"One word that best describes how you work",
-        "body":"Intensely"
+        "title": "One word that best describes how you work",
+        "body": "Intensely"
       },
       {
-        "title":"Current mobile device",
-        "body":"iPhone 6 Plus"
+        "title": "Current mobile device",
+        "body": "iPhone 6 Plus"
       },
       {
-        "title":"Current computer",
-        "body":"iMac, who knows what model? Not me."
+        "title": "Current computer",
+        "body": "iMac, who knows what model? Not me."
       }
     ],
-    "sections":[
+    "sections": [
       {
-        "title":"First of all, tell us a little about your background and how you got to where you are today.",
-        "paragraph":"It was kind of a wacky path here, although once I left college, I’ve almost always worked for nonprofits. I started at Steppenwolf Theatre Company, where I worked in Development. Then I moved back to the East Coast and worked in development and marketing at a youth theater (called TADA!) before landing at the Tribeca Film Institute, where I was the Director of Education for years.<br>In the end, I loved books most of all and so I ended up taking all of that fundraising, marketing, and program experience and dedicating it to the written word. Changing careers (or disciplines) at 32 was slightly daunting, and I started through volunteer work at the Brooklyn Book Festival and Guernica Magazine. Eventually, Guernica turned into a proper, paying job and I did that for 3.5 years. Its proximity to the book industry taught me so much and during that time I fell stone cold in love with it. And that landed me here.",
-        "images":[
+        "title": "First of all, tell us a little about your background and how you got to where you are today.",
+        "paragraph": "It was kind of a wacky path here, although once I left college, I’ve almost always worked for nonprofits. I started at Steppenwolf Theatre Company, where I worked in Development. Then I moved back to the East Coast and worked in development and marketing at a youth theater (called TADA!) before landing at the Tribeca Film Institute, where I was the Director of Education for years.<br>In the end, I loved books most of all and so I ended up taking all of that fundraising, marketing, and program experience and dedicating it to the written word. Changing careers (or disciplines) at 32 was slightly daunting, and I started through volunteer work at the Brooklyn Book Festival and Guernica Magazine. Eventually, Guernica turned into a proper, paying job and I did that for 3.5 years. Its proximity to the book industry taught me so much and during that time I fell stone cold in love with it. And that landed me here.",
+        "images": [
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg",
+          ""
+        ]
+      },
+      {
+        "title": "Take us through a recent workday.",
+        "paragraph": "No day is the same here. Yesterday, we had an office cleaning day, because books pile up. So it was all boxes, tape, loud music, pizza and Marie Kondo around here. Otherwise, there are a lot of meetings. You’d think that with such a small staff there wouldn’t be so many meetings, but we’re always working together and it just ends up happening. We’re also a national organization, so many of our partners are outside of New York City and so we love a good conference call.<br><br> Small organizations get a lot done with very few people, so we all wear a lot of hats. On any given day we are discussing potential judges for the National Book Awards, paying the bills, writing/approving copy for our website or newsletter, writing grant proposals, throwing parties, prepping for board meetings, you name it. We also end up doing arts & crafts projects far more often than you might guess.",
+        "images": [
+          "",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
+        ]
+      },
+      {
+        "title": "What apps, gadgets, or tools can’t you live without?",
+        "paragraph": "My phone. My little brother calls it “Lisa’s mobile command center.”",
+        "images": [
           "",
           ""
         ]
       },
       {
-        "title":"Take us through a recent workday.",
-        "paragraph":"No day is the same here. Yesterday, we had an office cleaning day, because books pile up. So it was all boxes, tape, loud music, pizza and Marie Kondo around here. Otherwise, there are a lot of meetings. You’d think that with such a small staff there wouldn’t be so many meetings, but we’re always working together and it just ends up happening. We’re also a national organization, so many of our partners are outside of New York City and so we love a good conference call.<br><br> Small organizations get a lot done with very few people, so we all wear a lot of hats. On any given day we are discussing potential judges for the National Book Awards, paying the bills, writing/approving copy for our website or newsletter, writing grant proposals, throwing parties, prepping for board meetings, you name it. We also end up doing arts & crafts projects far more often than you might guess.",
-        "images":[
-          "",
-          ""
+        "title": "What’s your workspace setup like?",
+        "paragraph": "Pretty generic, I suppose. Computer, phone, desk, lamp, pen, mug, water bottle. My office does have a number of bookshelves, which is necessary! I also have this big old wooden table that I inherited from the director before me and I love it so much I’m going to try to sneak it out with me if I ever leave.",
+        "images": [
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
         ]
       },
       {
-        "title":"What apps, gadgets, or tools can’t you live without?",
-        "paragraph":"My phone. My little brother calls it “Lisa’s mobile command center.”",
-        "images":[
-          "",
-          ""
-        ]
-      },
-      {
-        "title":"What’s your workspace setup like?",
-        "paragraph":"Pretty generic, I suppose. Computer, phone, desk, lamp, pen, mug, water bottle. My office does have a number of bookshelves, which is necessary! I also have this big old wooden table that I inherited from the director before me and I love it so much I’m going to try to sneak it out with me if I ever leave.",
-        "images":[
-          "",
-          ""
-        ]
-      },
-      {
-        "title":"Who are the people who help you get things done, and how do you rely on them?",
-        "paragraph":"Team Book, comprised of my 6 patient and wonderful colleagues, are superheroes. Nothing would get done without them. They are the bedrock of this place. Gabrielle, my assistant, is very good at making sure that things aren’t burning to flames because I’ve forgotten something.",
-        "images":[
+        "title": "Who are the people who help you get things done, and how do you rely on them?",
+        "paragraph": "Team Book, comprised of my 6 patient and wonderful colleagues, are superheroes. Nothing would get done without them. They are the bedrock of this place. Gabrielle, my assistant, is very good at making sure that things aren’t burning to flames because I’ve forgotten something.",
+        "images": [
           "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
         ]
       }
     ],
-    "videoURL":"",
+    "videoURL": "",
     "viewCount": 232003,
-    "comments":[
+    "comments": [
       {
-        "username":"Lebron James",
-        "comment":"A+ content heh :)",
-        "date":"2018-02-05T14:14:43.511Z"
+        "username": "Lebron James",
+        "comment": "A+ content heh :)",
+        "date": "2018-02-05T14:14:43.511Z"
       },
       {
-        "username":"Stephen Curry",
-        "comment":"Finally, a kindred spirit!",
-        "date":"2018-02-05T14:17:43.511Z"
+        "username": "Stephen Curry",
+        "comment": "Finally, a kindred spirit!",
+        "date": "2018-02-05T14:17:43.511Z"
       }
     ],
-    "publishedDate": "2018-02-05T14:11:43.511Z"
+    "publishedDate": "2018-02-05T14:11:43.511Z",
+    "emotionPoints": {
+      "normal": "1",
+      "bad": "1",
+      "happy": "1",
+      "good": "1",
+      "hell": "1"
+    }
   },
   {
     "id": "newsid_2",
     "title": "I'm Buckyballs Inventor Craig Zucker, and This Is How I Work",
     "category": "HOW_I_WORK",
     "admin": {
-      "firstName":"Tamir",
+      "firstName": "Tamir",
       "lastName": "Batmunkh",
-      "email":"tamirsnarf@gmail.com",
+      "email": "tamirsnarf@gmail.com",
       "image": "https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
     },
     "coverImage": "https://i.kinja-img.com/gawker-media/image/upload/bpmvjxhmxjsclzupx9za.jpg",
     "introParagraph": "Serial entrepreneur Craig Zucker is best known for creating Buckyballs, the most famous brand of rare-earth magnet toys that users can stack into geometric shapes, or mash around like a modular metal stress ball.",
     "attributes": [
       {
-        "title":"Location",
-        "body":"Brooklyn"
+        "title": "Location",
+        "body": "Brooklyn"
       },
       {
-        "title":"Current Gig",
-        "body":"Head of Speks"
+        "title": "Current Gig",
+        "body": "Head of Speks"
       },
       {
-        "title":"One word that best describes how you work",
-        "body":"Intensely"
+        "title": "One word that best describes how you work",
+        "body": "Intensely"
       },
       {
-        "title":"Current mobile device",
-        "body":"iPhone 7"
+        "title": "Current mobile device",
+        "body": "iPhone 7"
       },
       {
-        "title":"Current computer",
-        "body":"MacBook Air"
+        "title": "Current computer",
+        "body": "MacBook Air"
       }
     ],
-    "sections":[
+    "sections": [
       {
-        "title":"First of all, tell us a little about your background and how you got to where you are today.",
-        "paragraph":"I can tell you this, as a kid I didn’t dream of selling desk toys—or of most of the other things I’ve worked on over the years. I’m just a Cleveland kid who moved to New York City after college at Miami of Ohio and then leapt at pretty much every opportunity or weird inspiration that came my way. I’ve had a few entrepreneurial ventures in my time here, one of which was bottling, branding and selling NYC tap water. You can imagine how that turned out … (But what I can say? We have great tap that doesn’t need to come from Fiji.)<br> <br> After several of those ventures, I joined up with another guy to start Buckyballs, a desktoy made of rare-earth magnets, and man, was it something to watch Buckyballs take off. All of our efforts and growth were organic. There was no strategic marketing firm or PR team behind it. It was truly unbelievable—people latched onto our balls and we just kind of blew up. We rode that for a bit and then got hit with some serious regulatory issues on the federal level. We put up a great fight and stuck it out for a long time, but eventually we had to close the business at its height of $25 million per year in sales.<br> <br>Four years later, the legal decision against Buckyballs was overturned. With a former competitor (the guy behind Zen Magnets), I launched a new evolution of the rare-earth magnet desk toy: Speks. Speks is a set of smaller magnets than Buckyballs that are 100% compliant and meet all safety regulations no matter how you slice it.",
-        "images":[
+        "title": "First of all, tell us a little about your background and how you got to where you are today.",
+        "paragraph": "I can tell you this, as a kid I didn’t dream of selling desk toys—or of most of the other things I’ve worked on over the years. I’m just a Cleveland kid who moved to New York City after college at Miami of Ohio and then leapt at pretty much every opportunity or weird inspiration that came my way. I’ve had a few entrepreneurial ventures in my time here, one of which was bottling, branding and selling NYC tap water. You can imagine how that turned out … (But what I can say? We have great tap that doesn’t need to come from Fiji.)<br> <br> After several of those ventures, I joined up with another guy to start Buckyballs, a desktoy made of rare-earth magnets, and man, was it something to watch Buckyballs take off. All of our efforts and growth were organic. There was no strategic marketing firm or PR team behind it. It was truly unbelievable—people latched onto our balls and we just kind of blew up. We rode that for a bit and then got hit with some serious regulatory issues on the federal level. We put up a great fight and stuck it out for a long time, but eventually we had to close the business at its height of $25 million per year in sales.<br> <br>Four years later, the legal decision against Buckyballs was overturned. With a former competitor (the guy behind Zen Magnets), I launched a new evolution of the rare-earth magnet desk toy: Speks. Speks is a set of smaller magnets than Buckyballs that are 100% compliant and meet all safety regulations no matter how you slice it.",
+        "images": [
         ]
       },
       {
-        "title":"Take us through a recent workday.",
-        "paragraph":"It’s something new every day. I have a small team and we juggle around 30 different things a day. Lately my days have been starting with an early-morning yoga class with the team, usually followed by a coffee shop meeting before we head to our shared office space in Brooklyn. Speks still operates more or less like a start-up, and I have so many moving pieces right now that I’m constantly sending emails or on the phone with distributors or my remote team members.",
-        "images":[]
+        "title": "Take us through a recent workday.",
+        "paragraph": "It’s something new every day. I have a small team and we juggle around 30 different things a day. Lately my days have been starting with an early-morning yoga class with the team, usually followed by a coffee shop meeting before we head to our shared office space in Brooklyn. Speks still operates more or less like a start-up, and I have so many moving pieces right now that I’m constantly sending emails or on the phone with distributors or my remote team members.",
+        "images": []
       },
       {
-        "title":"What apps, gadgets, or tools can’t you live without?",
-        "paragraph":"Slack, Excel, Upwork, my Popsocket, a yoga mat",
-        "images":[
+        "title": "What apps, gadgets, or tools can’t you live without?",
+        "paragraph": "Slack, Excel, Upwork, my Popsocket, a yoga mat",
+        "images": [
         ]
       },
       {
-        "title":"What are your favorite toys? ",
-        "paragraph":"A tennis ball to play fetch with my Aussiedoodle, Theo.",
-        "images":[
+        "title": "What are your favorite toys? ",
+        "paragraph": "A tennis ball to play fetch with my Aussiedoodle, Theo.",
+        "images": [
         ]
       },
       {
-        "title":"What’s your workspace setup like?",
-        "paragraph":"We’re in a co-working space in Williamsburg. There’s Speks everywhere because we shoot photos and videos ourselves (oh, can you please share our new stop motion video…we’re really proud of it.) I bring my dog in during the week and he hangs out under my desk. My MacBook is set up wherever there isn’t product strewn. Thai delivery boxes make daily regular appearances.",
-        "images":[
+        "title": "What’s your workspace setup like?",
+        "paragraph": "We’re in a co-working space in Williamsburg. There’s Speks everywhere because we shoot photos and videos ourselves (oh, can you please share our new stop motion video…we’re really proud of it.) I bring my dog in during the week and he hangs out under my desk. My MacBook is set up wherever there isn’t product strewn. Thai delivery boxes make daily regular appearances.",
+        "images": [
         ]
       }
     ],
-    "videoURL":"",
+    "videoURL": "",
     "viewCount": 129321,
-    "comments":[
+    "comments": [
       {
-        "username":"James Harden",
-        "comment":"Umm, good to see the small magnety things back on the shelf.",
-        "date":"2018-02-05T14:19:43.511Z"
+        "username": "James Harden",
+        "comment": "Umm, good to see the small magnety things back on the shelf.",
+        "date": "2018-02-05T14:19:43.511Z"
       },
       {
-        "username":"Chris Paul",
-        "comment":"I haven’t read the entire article but this sentence has already paid for the cost of readership.",
-        "date":"2018-02-05T14:27:43.511Z"
+        "username": "Chris Paul",
+        "comment": "I haven’t read the entire article but this sentence has already paid for the cost of readership.",
+        "date": "2018-02-05T14:27:43.511Z"
       }
     ],
-    "publishedDate": "2018-02-05T14:17:43.511Z"
+    "publishedDate": "2018-02-05T14:17:43.511Z",
+    "emotionPoints": {
+      "normal": "80",
+      "bad": "5",
+      "happy": "10",
+      "good": "15",
+      "hell": "40"
+    }
   }
 ]
 
