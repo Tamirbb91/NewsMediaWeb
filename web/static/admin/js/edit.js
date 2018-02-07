@@ -77,40 +77,6 @@ $(function () {
                             })
                         )
                 )
-                .append(
-                    $("<div>")
-                        .attr({
-                            class: "section_images"
-                        })
-                        .append(
-                            $("<h4>").html("Section images")
-                        )
-                        .append(
-                            $("<form>").attr({
-                                class: "section_image",
-                                enctype: "multipart/form-data"
-                            })
-                                .append(
-                                    $("<input>").attr({
-                                        name: "sectionImage",
-                                        type: "file",
-                                        multiple: "true"
-                                    })
-                                )
-                                .append(
-                                    $("<input>").attr({
-                                        type: "button",
-                                        value: "Upload"
-                                    }).click(imageUpload)
-                                )
-                        )
-                        .append(
-                            $("input").attr({
-                                type: "text",
-                                // disabled: "true"
-                            })
-                        )
-                )
                 .insertBefore(this);
         }
     );
@@ -118,23 +84,13 @@ $(function () {
     $("#publish").click(
         publishNews
     );
-
-    $(".sectionImageUpload input[type=button]").click(imageUpload);
-    $("#coverImageUpload input[type=button]").click(imageUpload);
 });
 
 function publishNews(){
     var news = new News();
+    news.id = $(".content").attr("data-id");
     news.title = $("#title_value").val();
     news.category = $("input[name=category]:checked").val();
-    var dataId = $("#coverImageUpload").attr("data-id");
-    if(dataId){
-        console.log(dataId);
-        var coverImages = JSON.parse(dataId).images;
-        if(coverImages.length == 1){
-            news.coverImage = coverImages[0];
-        }
-    }
 
     news.introParagraph = $("#intro_paragraph_value").val();
     $(".attribute_div").each(function (index, value) {
@@ -154,15 +110,6 @@ function publishNews(){
             section.paragraph = $(this).find(".section_paragraph_value").val();
         }
 
-        var sectionImages = JSON.parse($(this).find(".sectionImageUpload").attr("data-id"));
-        console.log(sectionImages);
-        console.log(sectionImages["images"]);
-        var imagesPath = sectionImages["images"];
-
-        for(var i=0; i < imagesPath.length; i++){
-            section.addImage(imagesPath[i]);
-        }
-
         news.addSection(section);
     });
     console.log(news);
@@ -170,21 +117,26 @@ function publishNews(){
 }
 
 function publishNewsToServer(news){
-    $.post("/news", {news: JSON.stringify(news)}, function(data, status, xhr){
-        // console.log(data);
-        // console.log(status);
+    $.ajax({
+        url: "/updateNews",
+        type: "POST",
+        data: {"news": news},
+        success: function(data, status, xhr){
+            // console.log(data);
+            // console.log(status);
 
-        var result = JSON.parse(data);
-        console.log(result);
-        if(result["result"] === 'failed'){
-            $("#toast").html(result["message"]).css("display", "block");
-            window.setTimeout(function(){
-                $("#toast").html("").css("display", "none");
-            }, 3000);
-        }
+            var result = JSON.parse(data);
+            console.log(result);
+            if(result["result"] === 'failed'){
+                $("#toast").html(result["message"]).css("display", "block");
+                window.setTimeout(function(){
+                    $("#toast").html("").css("display", "none");
+                }, 3000);
+            }
 
-        if(result["result"] === 'success'){
-            window.location = "/news";
+            if(result["result"] === 'success'){
+                window.location = "/news";
+            }
         }
     });
 }
@@ -228,49 +180,4 @@ News.prototype.addAttribute = function(attribute){
 News.prototype.addSection = function(section){
     this.sections.push(section);
 };
-
-Section.prototype.addImage = function(image){
-    this.images.push(image);
-};
-
-function imageUpload() {
-    var self = $(this);
-    console.log(self.parent());
-    $.ajax({
-        url: "/image",
-        type: "POST",
-        data: new FormData(self.parent()[0]),
-        cache: false,
-        contentType: false,
-        processData: false,
-        success: function (data, status, xhr) {
-            console.log(data);
-            console.log(status);
-
-            var result = JSON.parse(data);
-            console.log(result);
-            if (result["result"] === 'failed') {
-                $("#toast").html(result["message"]).css("display", "block");
-                window.setTimeout(function () {
-                    $("#toast").html("").css("display", "none");
-                }, 3000);
-            }
-
-            if (result["result"] === 'success') {
-                $("#toast").html(result["message"]).css("display", "block");
-                window.setTimeout(function () {
-                    $("#toast").html("").css("display", "none");
-                }, 3000);
-                self.parent().attr("data-id", JSON.stringify({images : result["images"]}));
-            }
-        },
-        error: function (e) {
-            $("#toast").html("Image upload failed. Please try again.").css("display", "block");
-            window.setTimeout(function () {
-                $("#toast").html("").css("display", "none");
-            }, 3000);
-            self.parent().attr("data-id",JSON.stringify({images: []}));
-        }
-    });
-}
 

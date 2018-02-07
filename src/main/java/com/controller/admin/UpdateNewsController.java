@@ -1,6 +1,5 @@
 package com.controller.admin;
 
-import com.dao.AdminDAO;
 import com.dao.NewsDAO;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -16,49 +15,33 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.List;
 
-public class NewsController extends HttpServlet{
+public class UpdateNewsController extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter out = resp.getWriter();
         HttpSession session = req.getSession();
-        Admin admin = (Admin) session.getAttribute("admin");
 
-        if(admin == null){
-            resp.sendRedirect("/static/admin/jsp/login.jsp");
+        if(session.getAttribute("admin") == null){
+            out.print("{\"result\": \"failed\",\"message\": \"You have no access.\"}");
             return;
         }
 
         try{
-            List<News> myPost = new ArrayList<>();
-            List<News> newsList = ((NewsDAO) this.getServletContext().getAttribute("news")).newsList;
-
             String newsId = req.getParameter("newsId");
-            if(newsId != null){
-                for(News item : newsList){
-                    if(item.getId().equals(newsId)){
-                        req.setAttribute("editPost", item);
-                        req.getRequestDispatcher("/static/admin/jsp/edit.jsp").forward(req, resp);
-                        return;
-                    }
-                }
+            if(newsId != null) {
+                NewsDAO s = ((NewsDAO) this.getServletContext().getAttribute("news"));
+                s.remove(newsId);
+                this.getServletContext().setAttribute("news", s);
+                out.print("{\"result\": \"success\",\"message\": \"News is deleted successfully.\"}");
+                return;
             }
-
-            for(News item : newsList){
-                if(item.getAdmin().getEmail().equals(admin.getEmail())){
-                    myPost.add(item);
-                }
-            }
-            session.setAttribute("myPost", myPost);
-            req.getRequestDispatcher("/static/admin/jsp/home.jsp").forward(req, resp);
-            return;
         } catch(Exception e){
             e.printStackTrace();
         }
 
-        resp.sendRedirect("/static/admin/jsp/login.jsp");
+        out.print("{\"result\": \"failed\",\"message\": \"Failed.\"}");
     }
 
     @Override
@@ -75,15 +58,28 @@ public class NewsController extends HttpServlet{
             Admin admin = (Admin) session.getAttribute("admin");
             ObjectMapper mapper = new ObjectMapper();
             mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-            String newPost = req.getParameter("news");
+            String editPost = req.getParameter("news");
 
             TypeReference<News> mapType = new TypeReference<News>() {};
-            News news  = mapper.readValue(newPost, mapType);
+            News news  = mapper.readValue(editPost, mapType);
             news.setAdmin(admin);
             NewsDAO s = ((NewsDAO) this.getServletContext().getAttribute("news"));
-            s.addNews(news);
+            for(int i=0; i < s.newsList.size(); i++){
+                if(s.newsList.get(i).getId().equals(news.getId())){
+                    News temp = s.newsList.get(i);
+                    news.setCoverImage(temp.getCoverImage());
+                    List<Section> sections = news.getSections();
+                    for(int j=0; j< sections.size(); j++){
+                        temp.getSections().get(j).setTitle(sections.get(j).getTitle());
+                        temp.getSections().get(j).setParagraph(sections.get(j).getParagraph());
+                    }
+                    news.setSections(temp.getSections());
+                    s.newsList.set(i, news);
+                    break;
+                }
+            }
             this.getServletContext().setAttribute("news", s);
-            out.print("{\"result\": \"success\",\"message\": \"News is published successfully.\"}");
+            out.print("{\"result\": \"success\",\"message\": \"News is updated successfully.\"}");
             return;
         } catch(Exception e){
             e.printStackTrace();
