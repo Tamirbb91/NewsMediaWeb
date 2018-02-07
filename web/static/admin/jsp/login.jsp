@@ -15,7 +15,7 @@
 </head>
 <body>
     <div id="header">
-        <img src="../image/unread.png">
+        <img id="logo" src="../image/unread.png">
     </div>
     <div id="login">
          <p id="login_header">Admin login</p>

@@ -12,12 +12,12 @@
     <title>Admin Panel</title>
     <link rel="stylesheet" type="text/css" href="../css/new.css">
     <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.cookie.js" type="text/javascript"></script>
     <script type="text/javascript" src="../js/new.js"></script>
 </head>
 <body>
 <div id="header">
-    <img src="../image/unread.png">
-    <img src="../image/menu.png">
+    <img id="logo" src="../image/unread.png">
     <div id="admin_info">
         <div id="admin_profile">
             <img src="${admin.image}">
@@ -50,7 +50,11 @@
     </div>
     <div id="cover_image">
         <h4>Cover image</h4>
-        <input id="cover_image_value" type="text" name="coverImage" value="">
+        <%--<input id="cover_image_value" type="text" name="coverImage" value="">--%>
+        <form id="coverImageUpload" enctype='multipart/form-data'>
+            <input name="coverImage" type="file"/>
+            <input type="button" value="Upload" />
+        </form>
     </div>
     <div id="intro_paragraph">
         <h4>Intro paragraph</h4>
@@ -83,13 +87,11 @@
             </div>
             <div class="section_images">
                 <h4>Section images</h4>
-                <div class="section_image">
-                    <h4>Section image</h4>
-                    <input class="sectionImage" type="text" value="">
-                </div>
-                <div class="section_image_add">
-                    <span>Add image</span>
-                </div>
+                <form class="sectionImageUpload" enctype='multipart/form-data'>
+                    <input name="sectionImage" type="file" multiple/>
+                    <input type="button" value="Upload" />
+                </form>
+                <input class="images_path" type="text" value="">
             </div>
         </div>
         <div class="section_add">

@@ -6,6 +6,33 @@
     <!--Servlet configurations [START]-->
 
     <servlet>
+        <servlet-name>updateNewsController</servlet-name>
+        <servlet-class>com.controller.admin.UpdateNewsController</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>updateNewsController</servlet-name>
+        <url-pattern>/updateNews</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>imageUploadServlet</servlet-name>
+        <servlet-class>com.controller.admin.ImageUploadServlet</servlet-class>
+        <multipart-config>
+            <max-file-size>10485760</max-file-size>
+            <max-request-size>20971520</max-request-size>
+            <file-size-threshold>5242880</file-size-threshold>
+        </multipart-config>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>imageUploadServlet</servlet-name>
+        <url-pattern>/image/*</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
         <servlet-name>loginServlet</servlet-name>
         <servlet-class>com.controller.admin.LoginController</servlet-class>
     </servlet>

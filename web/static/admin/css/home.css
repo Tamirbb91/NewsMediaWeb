@@ -14,7 +14,8 @@ body{
     width: 100%;
 }
 
-#header > img {
+#logo{
+    cursor: pointer;
     height: 30px;
     margin-top: 10px;
     margin-left: 100px;
@@ -76,7 +77,7 @@ body{
 
 #contents{
     width: 80%;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 
 .my_post{
@@ -164,11 +165,25 @@ body{
 }
 
 #add_new_post{
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
     cursor: pointer;
-    height: 100%;
-    vertical-align: 8px;
-    margin-left: 5px;
-    display: inline-block;
+    border-radius: 15px;
+    background-color: #0077dd;
+}
+
+#add_new_post span{
+    color: white;
+    vertical-align: super;
+}
+
+#add_new_post svg{
+    fill: white;
+}
+
+#add_new_post:hover{
+    opacity: 0.7;
 }
 
 

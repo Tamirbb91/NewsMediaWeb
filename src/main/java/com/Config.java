@@ -5,6 +5,7 @@ import com.dao.NewsDAO;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
+import java.io.File;
 
 public class Config implements ServletContextListener{
 
@@ -12,6 +13,7 @@ public class Config implements ServletContextListener{
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         servletContextEvent.getServletContext().setAttribute("admin", new AdminDAO());
         servletContextEvent.getServletContext().setAttribute("news", new NewsDAO());
+        servletContextEvent.getServletContext().setAttribute("upload_path", "C:/Users/Tamir/IdeaProjects/NewsMediaWeb/out/artifacts/NewsMediaWeb_Web_exploded/WEB-INF/classes/images/");
     }
 
     @Override
