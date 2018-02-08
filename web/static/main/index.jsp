@@ -10,6 +10,7 @@
 <c:if test="${not empty category}" var="hasCategory"/>
 <c:if test="${not empty emotion}" var="hasEmotion"/>
 <input type="hidden" class="category_class" value="<c:out value="${category}"/>" />
+<input type="hidden" class="emotion_class" value="<c:out value="${emotion}"/>" />
 <div class="container">
     <div class="container_news">
         <div class="bubble <c:if test="${hasCategory}"><c:out value="bubblecategory" /></c:if>">

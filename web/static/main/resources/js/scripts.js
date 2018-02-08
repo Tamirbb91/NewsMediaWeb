@@ -79,11 +79,12 @@ function clickReadmore() {
         return $(this).val()
     }).get();
     var cat = $(".category_class").val();
-
+    var emotion = $(".emotion_class").val();
+    console.log(emotion);
     console.log(cat);
     $("#divreadmore").show();
     $("#divreadmore .bubble").html("<img width='30' src='static/main/resources/contents/loading.gif' />");
-    $.get("/readmore", {"newsids": newsids, "category": cat})
+    $.get("/readmore", {"newsids": newsids, "category": cat, "emotion": emotion})
         .done(addMoreNews)
         .fail(function (e) {
             console.log(e);

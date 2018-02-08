@@ -18,10 +18,8 @@ public class MainServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<News> news = ((NewsDAO) this.getServletContext().getAttribute("news")).newsList;
         List<News> filteredNews = new ArrayList<>();
-        int c = 0;
-        while (c != 1) {
-            filteredNews.add(news.get(c));
-            c++;
+        for(int i=news.size()-1;i>=news.size()-1-(news.size()/3);i--){
+            filteredNews.add(news.get(i));
         }
 
         req.setAttribute("news", filteredNews);
