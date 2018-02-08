@@ -47,7 +47,8 @@
         </p>
         <p class="footer_developedlabel">Developed by:</p>
         <p class="footer_developers">KHOSBAYAR BUYANDALAI <span class="bluespan">/</span> TAMIR BATMUNKH</p>
-        <p class="bluespan">2018</p>
+        <p class="bluespan">Educational use only (MUM - CS472 course - 2018)</p>
+
     </div>
 </footer>
 </body>

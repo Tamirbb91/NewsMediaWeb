@@ -54,7 +54,9 @@
                         <span>UP NEXT</span>
                     </div>
                     <div class="nextnews_upnext_title">
-                        <span><a class="anchor_upnext" href="#">7 ХОНОГИЙН ТОЙМ: "СУПЕР" САР + БРУНО "МАРС" + "УСГҮЙ" ДЭЛХИЙ </a></span>
+                        <span><a class="anchor_upnext" href="<c:url value="/details">
+                            <c:param name="newsid" value="${nextNew.id}" />
+                        </c:url>"><c:out value="${nextNew.title}"/></a></span>
                     </div>
                 </div>
             </div>
@@ -120,38 +122,23 @@
     </div>
     <div class="news_footer">
         <div class="news_offering">
-            <div class="offering">
-                <a href=""><img
-                        src="http://www.unreadtoday.batudigital.a2hosted.com/app/webroot/files/420c4b2f598fe4d18cde12feda4de191.jpg"
-                        alt="offering_1"></a>
-                <div class="offering_category">
-                    <span>BREAKING!</span>
+            <c:forEach var="recNew" items="${recommendedNews}">
+                <div class="offering">
+                    <a href="<c:url value="/details">
+                <c:param name="newsid" value="${recNew.id}" />
+            </c:url>"><img
+                            src="<c:out value="${recNew.coverImage}"/>"
+                            alt="<c:out value="${recNew.title}"/>"></a>
+                    <div class="offering_category">
+                        <span><c:out value="${recNew.category}"/>!</span>
+                    </div>
+                    <div class="offering_title">
+                    <span><a class="section_others" href="<c:url value="/details">
+                <c:param name="newsid" value="${recNew.id}" />
+            </c:url>"><c:out value="${recNew.title}"/></a></span>
+                    </div>
                 </div>
-                <div class="offering_title">
-                    <span><a class="section_others" href="#">АРАБЫН ХӨГЖИЛ БУЮУ ДУБАЙ, АБУ ДАБИ ХОТУУДААР АЯЛСАН ТЭМДЭГЛЭЛ #2</a></span>
-                </div>
-            </div>
-            <div class="offering">
-                <a href=""><img src="http://www.unread.today/app/webroot/files/8d6dfcb2a4d94f53534aef78ea05590c.jpg"
-                                alt="offering_2"></a>
-                <div class="offering_category">
-                    <span>BREAKING!</span>
-                </div>
-                <div class="offering_title">
-                    <span><a class="section_others" href="#">АРАБЫН ХӨГЖИЛ БУЮУ ДУБАЙ, АБУ ДАБИ ХОТУУДААР АЯЛСАН ТЭМДЭГЛЭЛ #2</a></span>
-                </div>
-            </div>
-            <div class="offering">
-                <a href=""><img
-                        src="http://www.unreadtoday.batudigital.a2hosted.com/app/webroot/files/cb093a5fdcfcbf1c379e75d3474b548f.jpg"
-                        alt="offering_3"></a>
-                <div class="offering_category">
-                    <span>BREAKING!</span>
-                </div>
-                <div class="offering_title">
-                    <span><a class="section_others" href="#">АРАБЫН ХӨГЖИЛ БУЮУ ДУБАЙ, АБУ ДАБИ ХОТУУДААР АЯЛСАН ТЭМДЭГЛЭЛ #2</a></span>
-                </div>
-            </div>
+            </c:forEach>
         </div>
     </div>
     <div class="timeline_input_title">
