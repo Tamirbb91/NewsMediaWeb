@@ -329,11 +329,16 @@ a {
 
 .news_section {
     box-sizing: border-box;
-    width: 75%;
-    float: left;
+    width: 100%;
+    /*float: left;*/
     margin: 10px;
     text-align: left;
     padding-right: 20px;
+}
+
+.news_header{
+    float: left;
+    width:75%;
 }
 
 .news_section > div {
@@ -342,9 +347,9 @@ a {
 
 .news_aside {
     /*position: -webkit-sticky;*/
-    margin-top: 50px;
-    position: absolute;
-    top: 0px;
+    margin-top: 20px;
+    /*position: absolute;*/
+    /*top: 0px;*/
     box-sizing: border-box;
     width: 25%;
     margin-left: 75%;

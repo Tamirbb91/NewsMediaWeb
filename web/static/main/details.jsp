@@ -21,17 +21,75 @@
                 </h1>
             </div>
         </div>
+        <!-- ASIDE BEGIN -->
+        <div class="news_aside">
+            <div class="news_aside_totalview_date">
+                <p><span class="section_totalview"><img
+                        src="<c:url value="/static/main/resources/contents/totalviews.png"/>"
+                        alt="totalviews"/> <c:out value="${cnew.viewCount}"/> &nbsp; </span>
+                    <span class="section_comments"><img
+                            src="<c:url value="/static/main/resources/contents/comments.png"/>"
+                            alt="comments"/> <c:out value="${cnew.comments.size()}"/> &nbsp; </span>
+                </p>
+            </div>
+            <hr/>
+            <div class="news_aside_published_by">
+                <p>PUBLISHED BY:</p>
+                <p><a class="publisher section_others" href="<c:url value="/authors">
+                                <c:param name="email" value="${cnew.admin.email}"/>
+                            </c:url>"><c:out
+                        value="${cnew.admin.firstName} ${cnew.admin.lastName}"/></a></p>
+                <a href="<c:url value="/authors">
+                                <c:param name="email" value="${cnew.admin.email}"/>
+                            </c:url>"><img src="<c:url value="${cnew.admin.image}"/>"
+                                           alt="<c:out value="${cnew.admin.firstName}"/>"
+                                           width="50px"/></a>
+            </div>
+            <hr/>
+            <div class="news_aside_reactions">
+                <div class="reactions_values">
+                    <c:forEach items="${cnew.emotionPoints}" var="emotion">
+                        <div id="reactions_value_<c:out value="${emotion.key}"/>"
+                             style="height: <c:out value="${emotion.value*1}"/>px">
+
+                        </div>
+                    </c:forEach>
+                </div>
+
+                <a id="emotion1" class="anchoremotions"><img
+                        src="<c:url value="/static/main/resources/contents/reactions/reaction_1.png"/>"
+                        alt="Happy"
+                        width="35px"></a>
+                <a id="emotion2" class="anchoremotions"><img
+                        src="<c:url value="/static/main/resources/contents/reactions/reaction_2.png"/>"
+                        alt="Good"
+                        width="35px"></a>
+                <a id="emotion3" class="anchoremotions"><img
+                        src="<c:url value="/static/main/resources/contents/reactions/reaction_3.png"/>"
+                        alt="Normal"
+                        width="35px"></a>
+                <a id="emotion4" class="anchoremotions"><img
+                        src="<c:url value="/static/main/resources/contents/reactions/reaction_4.png"/>"
+                        alt="Bad"
+                        width="35px"></a>
+                <a id="emotion5" class="anchoremotions"><img
+                        src="<c:url value="/static/main/resources/contents/reactions/reaction_5.png"/>"
+                        alt="Hell"
+                        width="35px"></a>
+            </div>
+        </div>
+        <!-- ASIDE END -->
         <div class="news_body">
             <div class="news_section">
 
                 <!-- INTRO PARAGRAPH -->
-                <div class="intro_parag"><strong><c:out value="${cnew.introParagraph}"/></strong></div>
+                <div class="intro_parag"><strong><c:out value="${cnew.introParagraph}"  escapeXml="false" /></strong></div>
 
                 <!-- NEWS ATTRIBUTES -->
                 <div class="news_attribute">
                     <c:forEach items="${cnew.attributes}" var="cnewattr">
-                        <strong><c:out value="${cnewattr.title}"/>:</strong> <span><c:out
-                            value="${cnewattr.body}"/></span><br/>
+                        <strong><c:out value="${cnewattr.title}" escapeXml="false" />:</strong> <span><c:out
+                            value="${cnewattr.body}" escapeXml="false" /></span><br/>
                     </c:forEach>
                 </div>
                 <!-- NEWS SECTIONS BEGIN -->
@@ -39,7 +97,7 @@
                     <div class="news_sections">
                         <strong class="news_sections_title section_others"><c:out
                                 value="${cnewsection.title}"/></strong>
-                        <p class="news_sections_parag"><c:out value="${cnewsection.paragraph}"/></p>
+                        <p class="news_sections_parag"><c:out value="${cnewsection.paragraph}" escapeXml="false" /></p>
                         <c:forEach items="${cnewsection.images}" var="cnewsectionimages">
                             <div class="news_sections_img"><img src="<c:out value="${cnewsectionimages}"/>"
                                                                 alt="<c:out value="${cnewsection.title}"/>"/></div>
@@ -60,64 +118,7 @@
                     </div>
                 </div>
             </div>
-            <!-- ASIDE BEGIN -->
-            <div class="news_aside">
-                <div class="news_aside_totalview_date">
-                    <p><span class="section_totalview"><img
-                            src="<c:url value="/static/main/resources/contents/totalviews.png"/>"
-                            alt="totalviews"/> <c:out value="${cnew.viewCount}"/> &nbsp; </span>
-                        <span class="section_comments"><img
-                                src="<c:url value="/static/main/resources/contents/comments.png"/>"
-                                alt="comments"/> <c:out value="${cnew.comments.size()}"/> &nbsp; </span>
-                    </p>
-                </div>
-                <hr/>
-                <div class="news_aside_published_by">
-                    <p>PUBLISHED BY:</p>
-                    <p><a class="publisher section_others" href="<c:url value="/authors">
-                                <c:param name="email" value="${cnew.admin.email}"/>
-                            </c:url>"><c:out
-                            value="${cnew.admin.firstName} ${cnew.admin.lastName}"/></a></p>
-                    <a href="<c:url value="/authors">
-                                <c:param name="email" value="${cnew.admin.email}"/>
-                            </c:url>"><img src="<c:url value="${cnew.admin.image}"/>"
-                                           alt="<c:out value="${cnew.admin.firstName}"/>"
-                                           width="50px"/></a>
-                </div>
-                <hr/>
-                <div class="news_aside_reactions">
-                    <div class="reactions_values">
-                        <c:forEach items="${cnew.emotionPoints}" var="emotion">
-                            <div id="reactions_value_<c:out value="${emotion.key}"/>"
-                                 style="height: <c:out value="${emotion.value*1}"/>px">
 
-                            </div>
-                        </c:forEach>
-                    </div>
-
-                    <a id="emotion1" class="anchoremotions"><img
-                            src="<c:url value="/static/main/resources/contents/reactions/reaction_1.png"/>"
-                            alt="Happy"
-                            width="35px"></a>
-                    <a id="emotion2" class="anchoremotions"><img
-                            src="<c:url value="/static/main/resources/contents/reactions/reaction_2.png"/>"
-                            alt="Good"
-                            width="35px"></a>
-                    <a id="emotion3" class="anchoremotions"><img
-                            src="<c:url value="/static/main/resources/contents/reactions/reaction_3.png"/>"
-                            alt="Normal"
-                            width="35px"></a>
-                    <a id="emotion4" class="anchoremotions"><img
-                            src="<c:url value="/static/main/resources/contents/reactions/reaction_4.png"/>"
-                            alt="Bad"
-                            width="35px"></a>
-                    <a id="emotion5" class="anchoremotions"><img
-                            src="<c:url value="/static/main/resources/contents/reactions/reaction_5.png"/>"
-                            alt="Hell"
-                            width="35px"></a>
-                </div>
-            </div>
-            <!-- ASIDE END -->
         </div>
     </div>
     <div class="news_footer">
