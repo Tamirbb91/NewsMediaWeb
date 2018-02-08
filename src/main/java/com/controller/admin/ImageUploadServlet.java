@@ -20,7 +20,6 @@ import java.util.stream.Collectors;
 public class ImageUploadServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("hii");
         String filename = this.getServletContext().getAttribute("upload_path") + req.getPathInfo();
         // retrieve mimeType dynamically
         String mime = this.getServletContext().getMimeType(filename);
@@ -60,7 +59,7 @@ public class ImageUploadServlet extends HttpServlet{
                     String ext = name.substring(name.lastIndexOf('.'));
                     String fileName = ((Long) System.currentTimeMillis()).toString() + ext;
                     item.write(new File(uploadPath + "/" + fileName));
-                    images.put("http://localhost:8080/images/" + fileName);
+                    images.put("http://localhost:8080/image/" + fileName);
                 }
             }
 

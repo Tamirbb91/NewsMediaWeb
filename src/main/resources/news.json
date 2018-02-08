@@ -1,242 +1,350 @@
 [
   {
-    "id": "newsid_1",
-    "title": "I'm National Book Foundation Executive Director Lisa Lucas, and This Is How I Work",
-    "category": "BREAKING",
-    "admin": {
-      "firstName": "Tamir",
-      "lastName": "Batmunkh",
-      "email": "tamirsnarf@gmail.com",
-      "image": "https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
-    },
-    "coverImage": "https://i.kinja-img.com/gawker-media/image/upload/s--ELRJYHLb--/c_scale,fl_progressive,q_80,w_800/oy69qq9hgtcm2vhlsgf8.jpg",
-    "introParagraph": "Since 1950 the National Book Foundation has awarded the National Book Award to authors such as Colson Whitehead, William Faulkner, Beverly Cleary, and Jesmyn Ward. The Foundation also runs several programs for readers and writers, including the BookUp after-school reading program. In March 2016 the Foundation hired Guernica publisher Lisa Lucas as executive director. We talked to Lucas about how she runs the Foundation day to day.",
-    "attributes": [
-      {
-        "title": "Location",
-        "body": "New York City"
-      },
-      {
-        "title": "Current Gig",
-        "body": "Executive Director, National Book Foundation"
-      },
-      {
-        "title": "One word that best describes how you work",
-        "body": "Intensely"
-      },
-      {
-        "title": "Current mobile device",
-        "body": "iPhone 6 Plus"
-      },
-      {
-        "title": "Current computer",
-        "body": "iMac, who knows what model? Not me."
-      }
-    ],
-    "sections": [
-      {
-        "title": "First of all, tell us a little about your background and how you got to where you are today.",
-        "paragraph": "It was kind of a wacky path here, although once I left college, I’ve almost always worked for nonprofits. I started at Steppenwolf Theatre Company, where I worked in Development. Then I moved back to the East Coast and worked in development and marketing at a youth theater (called TADA!) before landing at the Tribeca Film Institute, where I was the Director of Education for years.<br>In the end, I loved books most of all and so I ended up taking all of that fundraising, marketing, and program experience and dedicating it to the written word. Changing careers (or disciplines) at 32 was slightly daunting, and I started through volunteer work at the Brooklyn Book Festival and Guernica Magazine. Eventually, Guernica turned into a proper, paying job and I did that for 3.5 years. Its proximity to the book industry taught me so much and during that time I fell stone cold in love with it. And that landed me here.",
-        "images": [
-          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg",
-          ""
-        ]
-      },
-      {
-        "title": "Take us through a recent workday.",
-        "paragraph": "No day is the same here. Yesterday, we had an office cleaning day, because books pile up. So it was all boxes, tape, loud music, pizza and Marie Kondo around here. Otherwise, there are a lot of meetings. You’d think that with such a small staff there wouldn’t be so many meetings, but we’re always working together and it just ends up happening. We’re also a national organization, so many of our partners are outside of New York City and so we love a good conference call.<br><br> Small organizations get a lot done with very few people, so we all wear a lot of hats. On any given day we are discussing potential judges for the National Book Awards, paying the bills, writing/approving copy for our website or newsletter, writing grant proposals, throwing parties, prepping for board meetings, you name it. We also end up doing arts & crafts projects far more often than you might guess.",
-        "images": [
-          "",
-          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
-        ]
-      },
-      {
-        "title": "What apps, gadgets, or tools can’t you live without?",
-        "paragraph": "My phone. My little brother calls it “Lisa’s mobile command center.”",
-        "images": [
-          "",
-          ""
-        ]
-      },
-      {
-        "title": "What’s your workspace setup like?",
-        "paragraph": "Pretty generic, I suppose. Computer, phone, desk, lamp, pen, mug, water bottle. My office does have a number of bookshelves, which is necessary! I also have this big old wooden table that I inherited from the director before me and I love it so much I’m going to try to sneak it out with me if I ever leave.",
-        "images": [
-          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg",
-          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
-        ]
-      },
-      {
-        "title": "Who are the people who help you get things done, and how do you rely on them?",
-        "paragraph": "Team Book, comprised of my 6 patient and wonderful colleagues, are superheroes. Nothing would get done without them. They are the bedrock of this place. Gabrielle, my assistant, is very good at making sure that things aren’t burning to flames because I’ve forgotten something.",
-        "images": [
-          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
-        ]
-      }
-    ],
-    "videoURL": "",
-    "viewCount": 232003,
-    "comments": [
-      {
-        "username": "Lebron James",
-        "comment": "A+ content heh :)",
-        "date": "2018-02-05T14:14:43.511Z"
-      },
-      {
-        "username": "Stephen Curry",
-        "comment": "Finally, a kindred spirit!",
-        "date": "2018-02-05T14:17:43.511Z"
-      }
-    ],
-    "publishedDate": "2018-02-05T14:11:43.511Z",
-    "emotionPoints": {
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "5"
-    }
-  },
-  {
-    "id": "newsid_2",
-    "title": "I'm Buckyballs Inventor Craig Zucker, and This Is How I Work",
-    "category": "HOW_I_WORK",
-    "admin": {
-      "firstName": "Tamir",
-      "lastName": "Batmunkh",
-      "email": "tamirsnarf@gmail.com",
-      "image": "https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
-    },
-    "coverImage": "https://i.kinja-img.com/gawker-media/image/upload/bpmvjxhmxjsclzupx9za.jpg",
-    "introParagraph": "Serial entrepreneur Craig Zucker is best known for creating Buckyballs, the most famous brand of rare-earth magnet toys that users can stack into geometric shapes, or mash around like a modular metal stress ball.",
-    "attributes": [
-      {
-        "title": "Location",
-        "body": "Brooklyn"
-      },
-      {
-        "title": "Current Gig",
-        "body": "Head of Speks"
-      },
-      {
-        "title": "One word that best describes how you work",
-        "body": "Intensely"
-      },
-      {
-        "title": "Current mobile device",
-        "body": "iPhone 7"
-      },
-      {
-        "title": "Current computer",
-        "body": "MacBook Air"
-      }
-    ],
-    "sections": [
-      {
-        "title": "First of all, tell us a little about your background and how you got to where you are today.",
-        "paragraph": "I can tell you this, as a kid I didn’t dream of selling desk toys—or of most of the other things I’ve worked on over the years. I’m just a Cleveland kid who moved to New York City after college at Miami of Ohio and then leapt at pretty much every opportunity or weird inspiration that came my way. I’ve had a few entrepreneurial ventures in my time here, one of which was bottling, branding and selling NYC tap water. You can imagine how that turned out … (But what I can say? We have great tap that doesn’t need to come from Fiji.)<br> <br> After several of those ventures, I joined up with another guy to start Buckyballs, a desktoy made of rare-earth magnets, and man, was it something to watch Buckyballs take off. All of our efforts and growth were organic. There was no strategic marketing firm or PR team behind it. It was truly unbelievable—people latched onto our balls and we just kind of blew up. We rode that for a bit and then got hit with some serious regulatory issues on the federal level. We put up a great fight and stuck it out for a long time, but eventually we had to close the business at its height of $25 million per year in sales.<br> <br>Four years later, the legal decision against Buckyballs was overturned. With a former competitor (the guy behind Zen Magnets), I launched a new evolution of the rare-earth magnet desk toy: Speks. Speks is a set of smaller magnets than Buckyballs that are 100% compliant and meet all safety regulations no matter how you slice it.",
-        "images": [
-        ]
-      },
-      {
-        "title": "Take us through a recent workday.",
-        "paragraph": "It’s something new every day. I have a small team and we juggle around 30 different things a day. Lately my days have been starting with an early-morning yoga class with the team, usually followed by a coffee shop meeting before we head to our shared office space in Brooklyn. Speks still operates more or less like a start-up, and I have so many moving pieces right now that I’m constantly sending emails or on the phone with distributors or my remote team members.",
-        "images": []
-      },
-      {
-        "title": "What apps, gadgets, or tools can’t you live without?",
-        "paragraph": "Slack, Excel, Upwork, my Popsocket, a yoga mat",
-        "images": [
-        ]
-      },
-      {
-        "title": "What are your favorite toys? ",
-        "paragraph": "A tennis ball to play fetch with my Aussiedoodle, Theo.",
-        "images": [
-        ]
-      },
-      {
-        "title": "What’s your workspace setup like?",
-        "paragraph": "We’re in a co-working space in Williamsburg. There’s Speks everywhere because we shoot photos and videos ourselves (oh, can you please share our new stop motion video…we’re really proud of it.) I bring my dog in during the week and he hangs out under my desk. My MacBook is set up wherever there isn’t product strewn. Thai delivery boxes make daily regular appearances.",
-        "images": [
-        ]
-      }
-    ],
-    "videoURL": "",
-    "viewCount": 129321,
-    "comments": [
-      {
-        "username": "James Harden",
-        "comment": "Umm, good to see the small magnety things back on the shelf.",
-        "date": "2018-02-05T14:19:43.511Z"
-      },
-      {
-        "username": "Chris Paul",
-        "comment": "I haven’t read the entire article but this sentence has already paid for the cost of readership.",
-        "date": "2018-02-05T14:27:43.511Z"
-      }
-    ],
-    "publishedDate": "2018-02-05T14:17:43.511Z",
-    "emotionPoints": {
-      "1": "10",
-      "2": "15",
-      "3": "80",
-      "4": "5",
-      "5": "40"
-    }
-  }
-]
-
-/*
-{
-    "id": "newsid_3",
-    "title": "",
-    "category": "HOW_I_WORK",
-    "admin": {
+    "id":"newsid_1",
+    "title":"I'm National Book Foundation Executive Director Lisa Lucas, and This Is How I Work",
+    "category":"BREAKING",
+    "admin":{
       "firstName":"Tamir",
-      "lastName": "Batmunkh",
+      "lastName":"Batmunkh",
       "email":"tamirsnarf@gmail.com",
-      "image": "https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
+      "image":"https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
     },
-    "coverImage": "",
-    "introParagraph": "",
-    "attributes": [
+    "coverImage":"http://www.bkmag.com/wp-content/uploads/2016/08/lisalucashoriz.jpg",
+    "introParagraph":"Since 1950 the National Book Foundation has awarded the National Book Award to authors such as Colson Whitehead, William Faulkner, Beverly Cleary, and Jesmyn Ward. The Foundation also runs several programs for readers and writers, including the BookUp after-school reading program. In March 2016 the Foundation hired Guernica publisher Lisa Lucas as executive director. We talked to Lucas about how she runs the Foundation day to day.",
+    "attributes":[
       {
-        "title":"",
-        "body":""
+        "title":"Location",
+        "body":"New York City"
       },
       {
-        "title":"",
-        "body":""
+        "title":"Current Gig",
+        "body":"Executive Director, National Book Foundation"
+      },
+      {
+        "title":"One word that best describes how you work",
+        "body":"Intensely"
+      },
+      {
+        "title":"Current mobile device",
+        "body":"iPhone 6 Plus"
+      },
+      {
+        "title":"Current computer",
+        "body":"iMac, who knows what model? Not me."
       }
     ],
     "sections":[
       {
-        "title":"",
-        "paragraph":"",
+        "title":"First of all, tell us a little about your background and how you got to where you are today.",
+        "paragraph":"It was kind of a wacky path here, although once I left college, I’ve almost always worked for nonprofits. I started at Steppenwolf Theatre Company, where I worked in Development. Then I moved back to the East Coast and worked in development and marketing at a youth theater (called TADA!) before landing at the Tribeca Film Institute, where I was the Director of Education for years.<br>In the end, I loved books most of all and so I ended up taking all of that fundraising, marketing, and program experience and dedicating it to the written word. Changing careers (or disciplines) at 32 was slightly daunting, and I started through volunteer work at the Brooklyn Book Festival and Guernica Magazine. Eventually, Guernica turned into a proper, paying job and I did that for 3.5 years. Its proximity to the book industry taught me so much and during that time I fell stone cold in love with it. And that landed me here.",
+        "images":[
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg",
+          ""
+        ]
+      },
+      {
+        "title":"Take us through a recent workday.",
+        "paragraph":"No day is the same here. Yesterday, we had an office cleaning day, because books pile up. So it was all boxes, tape, loud music, pizza and Marie Kondo around here. Otherwise, there are a lot of meetings. You’d think that with such a small staff there wouldn’t be so many meetings, but we’re always working together and it just ends up happening. We’re also a national organization, so many of our partners are outside of New York City and so we love a good conference call.<br><br> Small organizations get a lot done with very few people, so we all wear a lot of hats. On any given day we are discussing potential judges for the National Book Awards, paying the bills, writing/approving copy for our website or newsletter, writing grant proposals, throwing parties, prepping for board meetings, you name it. We also end up doing arts & crafts projects far more often than you might guess.",
+        "images":[
+          "",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
+        ]
+      },
+      {
+        "title":"What apps, gadgets, or tools can’t you live without?",
+        "paragraph":"My phone. My little brother calls it “Lisa’s mobile command center.”",
         "images":[
           "",
           ""
         ]
       },
       {
-        "title":"",
-        "paragraph":"",
+        "title":"What’s your workspace setup like?",
+        "paragraph":"Pretty generic, I suppose. Computer, phone, desk, lamp, pen, mug, water bottle. My office does have a number of bookshelves, which is necessary! I also have this big old wooden table that I inherited from the director before me and I love it so much I’m going to try to sneak it out with me if I ever leave.",
         "images":[
-          "",
-          ""
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg",
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
+        ]
+      },
+      {
+        "title":"Who are the people who help you get things done, and how do you rely on them?",
+        "paragraph":"Team Book, comprised of my 6 patient and wonderful colleagues, are superheroes. Nothing would get done without them. They are the bedrock of this place. Gabrielle, my assistant, is very good at making sure that things aren’t burning to flames because I’ve forgotten something.",
+        "images":[
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
         ]
       }
     ],
     "videoURL":"",
-    "viewCount": 0,
+    "viewCount":232003,
     "comments":[
       {
-        "username":"",
-        "comment":"",
+        "username":"Lebron James",
+        "comment":"A+ content heh :)",
+        "date":"2018-02-05T14:14:43.511Z"
+      },
+      {
+        "username":"Stephen Curry",
+        "comment":"Finally, a kindred spirit!",
         "date":"2018-02-05T14:17:43.511Z"
       }
     ],
-    "publishedDate": "2018-02-05T14:17:43.511Z"
+    "publishedDate":"2018-02-05T14:11:43.511Z",
+    "emotionPoints":{
+      "1":"1",
+      "2":"2",
+      "3":"3",
+      "4":"4",
+      "5":"5"
+    }
+  },
+  {
+    "id":"newsid_2",
+    "title":"I'm Buckyballs Inventor Craig Zucker, and This Is How I Work",
+    "category":"HOW_I_WORK",
+    "admin":{
+      "firstName":"Tamir",
+      "lastName":"Batmunkh",
+      "email":"tamirsnarf@gmail.com",
+      "image":"https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
+    },
+    "coverImage":"https://i.kinja-img.com/gawker-media/image/upload/bpmvjxhmxjsclzupx9za.jpg",
+    "introParagraph":"Serial entrepreneur Craig Zucker is best known for creating Buckyballs, the most famous brand of rare-earth magnet toys that users can stack into geometric shapes, or mash around like a modular metal stress ball.",
+    "attributes":[
+      {
+        "title":"Location",
+        "body":"Brooklyn"
+      },
+      {
+        "title":"Current Gig",
+        "body":"Head of Speks"
+      },
+      {
+        "title":"One word that best describes how you work",
+        "body":"Intensely"
+      },
+      {
+        "title":"Current mobile device",
+        "body":"iPhone 7"
+      },
+      {
+        "title":"Current computer",
+        "body":"MacBook Air"
+      }
+    ],
+    "sections":[
+      {
+        "title":"First of all, tell us a little about your background and how you got to where you are today.",
+        "paragraph":"I can tell you this, as a kid I didn’t dream of selling desk toys—or of most of the other things I’ve worked on over the years. I’m just a Cleveland kid who moved to New York City after college at Miami of Ohio and then leapt at pretty much every opportunity or weird inspiration that came my way. I’ve had a few entrepreneurial ventures in my time here, one of which was bottling, branding and selling NYC tap water. You can imagine how that turned out … (But what I can say? We have great tap that doesn’t need to come from Fiji.)<br> <br> After several of those ventures, I joined up with another guy to start Buckyballs, a desktoy made of rare-earth magnets, and man, was it something to watch Buckyballs take off. All of our efforts and growth were organic. There was no strategic marketing firm or PR team behind it. It was truly unbelievable—people latched onto our balls and we just kind of blew up. We rode that for a bit and then got hit with some serious regulatory issues on the federal level. We put up a great fight and stuck it out for a long time, but eventually we had to close the business at its height of $25 million per year in sales.<br> <br>Four years later, the legal decision against Buckyballs was overturned. With a former competitor (the guy behind Zen Magnets), I launched a new evolution of the rare-earth magnet desk toy: Speks. Speks is a set of smaller magnets than Buckyballs that are 100% compliant and meet all safety regulations no matter how you slice it.",
+        "images":[
+        ]
+      },
+      {
+        "title":"Take us through a recent workday.",
+        "paragraph":"It’s something new every day. I have a small team and we juggle around 30 different things a day. Lately my days have been starting with an early-morning yoga class with the team, usually followed by a coffee shop meeting before we head to our shared office space in Brooklyn. Speks still operates more or less like a start-up, and I have so many moving pieces right now that I’m constantly sending emails or on the phone with distributors or my remote team members.",
+        "images":[
+
+        ]
+      },
+      {
+        "title":"What apps, gadgets, or tools can’t you live without?",
+        "paragraph":"Slack, Excel, Upwork, my Popsocket, a yoga mat",
+        "images":[
+
+        ]
+      },
+      {
+        "title":"What are your favorite toys? ",
+        "paragraph":"A tennis ball to play fetch with my Aussiedoodle, Theo.",
+        "images":[
+
+        ]
+      },
+      {
+        "title":"What’s your workspace setup like?",
+        "paragraph":"We’re in a co-working space in Williamsburg. There’s Speks everywhere because we shoot photos and videos ourselves (oh, can you please share our new stop motion video…we’re really proud of it.) I bring my dog in during the week and he hangs out under my desk. My MacBook is set up wherever there isn’t product strewn. Thai delivery boxes make daily regular appearances.",
+        "images":[
+
+        ]
+      }
+    ],
+    "videoURL":"",
+    "viewCount":129321,
+    "comments":[
+      {
+        "username":"James Harden",
+        "comment":"Umm, good to see the small magnety things back on the shelf.",
+        "date":"2018-02-05T14:19:43.511Z"
+      },
+      {
+        "username":"Chris Paul",
+        "comment":"I haven’t read the entire article but this sentence has already paid for the cost of readership.",
+        "date":"2018-02-05T14:27:43.511Z"
+      }
+    ],
+    "publishedDate":"2018-02-05T14:17:43.511Z",
+    "emotionPoints":{
+      "1":"10",
+      "2":"15",
+      "3":"80",
+      "4":"5",
+      "5":"40"
+    }
+  },
+  {
+    "id":"1518050052210",
+    "title":"Tsagaan sar/Mongolian Lunar New Year event 2018",
+    "category":"BREAKING",
+    "admin":{
+      "firstName":"Tamir",
+      "lastName":"Batmunkh",
+      "email":"tamirsnarf@gmail.com",
+      "password":"Password",
+      "image":"https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
+    },
+    "coverImage":"http://localhost:8080/image/1518049989680.jpg",
+    "introParagraph":"“Tsagaan Sar” /White Moon/ takes place at the beginning of spring and is the biggest annual celebration in Mongolia. In collaboration with local nomadic families we have been organizing a “Tsagaan Sar” event every year in our Mongolian Secret History Travel Complex since 2008.\n\nThe main purpose of the event is to promote the Mongolian Nomads’ way of life and their customs for celebrating the traditional New Year.",
+    "attributes":[
+      {
+        "title":"Dates",
+        "body":"15th Feb 2018 - 17th Feb 2018"
+      },
+      {
+        "title":"Length",
+        "body":"2 days/2 nights"
+      },
+      {
+        "title":"Group size",
+        "body":"5-20 people"
+      },
+      {
+        "title":"Transport",
+        "body":"comfortable 4x4 vehicles"
+      },
+      {
+        "title":"Difficulty",
+        "body":"Moderate: No hard physical requirements"
+      }
+    ],
+    "sections":[
+      {
+        "title":"15th Feb 2018 LUNAR NEW YEAR EVE",
+        "paragraph":"Early in the morning our guide and driver will pick you up from a designated spot and take you to our Mongolian Secret History complex which is about an hour and a half away from Ulaanbaatar city. The camp is located in a beautiful spot surrounded by forest in the Valley of Noyon Mountain. Mongolian nomads move from one location to another depending on the season and there are few herder families who move near the camp in a winter for better shelter for their livestock. The 2 days event will take a place partially at the camp and partially at the herder family's gers. ",
+        "images":[
+          "http://localhost:8080/image/1518050044674.jpeg"
+        ]
+      },
+      {
+        "title":"16th Feb 2018 THE FIRST DAY OF THE LUNAR NEW YEAR",
+        "paragraph":"Today take your predetermined, personal first steps of the New Year before the sun rises according to Mongolian traditions relating to your individual birthday and year. You will be given individual instructions on which directions to head out and come back and what rituals to do (e.g. lighting a small fire or breaking small peace of wood etc) depending of your date of birth.",
+        "images":[
+          "http://localhost:8080/image/1518051066429.jpeg",
+          "http://localhost:8080/image/1518051066436.jpeg"]
+      }
+    ],
+    "videoURL":"",
+    "viewCount":0,
+    "comments":[
+    ],
+    "publishedDate":1518050052210,
+    "emotionPoints":{
+      "1":0,
+      "2":0,
+      "3":0,
+      "4":0,
+      "5":0
+    }
+  },
+
+  {
+    "id":"1518051709049",
+    "title":"24 Hours in Ulaanbaatar",
+    "category":"BREAKING",
+    "admin":{
+      "firstName":"Khosbayar",
+      "lastName":"Buyandalai",
+      "email":"hs.khosbayar@gmail.com",
+      "password":"Password",
+      "image":""
+    },
+    "coverImage":"http://localhost:8080/image/1518051547853.jpg",
+    "introParagraph":"Mongolia is renowned for its sweeping countryside. But before you head out of the capital, here is our definitive list of must-do activities in Ulaanbaatar. We’ve included a mix of history, culture, food and fun to make sure you don’t miss what this bustling city is about. This will be your go-to list for both summer and winter.",
+    "attributes":[
+
+    ],
+    "sections":[
+      {
+        "title":"Zaisan Memorial",
+        "paragraph":"Rise and shine! It is time to start the day with some fresh air and history. The Zaisan Memorial, just south of Ulaanbaatar, is a monument dedicated to Soviet soldiers who died in World War ll. The memorial consists of a former Soviet tank at the base of the hill and a panoramic mural at the peak.<br>\nThis mural depicts scenes from Mongolia’s relationship with the Soviet Union during the 20th century. For those who do not enjoy historical monuments, the memorial is worth getting up early for: the hill overlooks the entire city and looks stunning at sunrise and in the early morning. There are a few (hundred) steps to reach the top so make sure you wear comfortable shoes.\n<br>\nTo get to Zaisan, you can take a taxi from the centre of town for around 2,500 MNT. ",
+        "images":[
+          "http://localhost:8080/image/1518051610849.jpeg"
+        ]
+      },
+      {
+        "title":"International Intellectual Museum",
+        "paragraph":"In one chess puzzle, there is a $10,000 award for any person who can assemble the king in 10 minutes. Not enough? The prize puzzle of the collection is a 5kg silver tortoise, requiring 33 different interlocking methods. Assemble it and you will be awarded $100,000.\n\nMore information about the museum and directions for how to get there are available from <a href=\"http://iqmuseum.mn/\">iqmuseum.mn</a>",
+        "images":[
+          "http://localhost:8080/image/1518051682698.jpeg"
+        ]
+      },
+      {
+        "title":"Dinner and Drinks",
+        "paragraph":"Boasting the best DJs and best chef in Ulaanbaatar, you can’t miss dinner at SET. The views from this 18th storey restaurant are the perfect way to end the evening over a signature cocktail.\n\nAs you return to bed you can rest assured that you have experienced the diversity of Ulaanbaatar. ",
+        "images":[
+          "http://localhost:8080/image/1518051706246.jpeg"
+        ]
+      }
+    ],
+    "videoURL":"",
+    "viewCount":0,
+    "comments":[
+    ],
+    "publishedDate":1518051709049,
+    "emotionPoints":{
+      "1":0,
+      "2":0,
+      "3":0,
+      "4":0,
+      "5":0
+    }
+  },
+
+  {
+    "id":"1518054843082",
+    "title":"Tesla burns through $2 billion in 2017",
+    "category":"BREAKING",
+    "admin":{
+      "firstName":"Khosbayar",
+      "lastName":"Buyandalai",
+      "email":"hs.khosbayar@gmail.com",
+      "password":"Password",
+      "image":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAIAAgDGAAAAAQAAAAAAAAtJAAAAJDkxODZhNzRjLTQzMDktNDFhZS1iMzlmLTRlMjA2MzM5ZjUwOQ.jpg"
+    },
+    "coverImage":"https://cdn.vox-cdn.com/thumbor/7mkGKxQv5eE_3rmQkdW9SPDPYL0=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/58614543/vrg_tesla_model_3_red_overhead.0.jpg",
+    "introParagraph":"Tesla reported record revenue for 2017, floated by customer deposits of the recently announced Semi truck and Roadster sports car. Despite its optimistic sales numbers, Model 3 production issues and cash flow problems haunt the company, but Tesla insists its on track to meet its production goals of 5,000 cars a week by mid-2018.\n\nTesla reported $3.3 billion in revenue, which was expected, but also posted a $771 million quarterly loss — its largest quarterly loss ever. The company reported a negative free cash flow of $276.7 million. And it reported a net loss of $2.24 billion in 2017, a significant increase over the $773 million net loss it reported in 2016.\n\nWe already know Tesla’s 2017 was a mixed bag, to say the least. There were highs: the launches of the Model 3, Semi, and Roadster. There were lows: painful quality reports from early Model 3 examples built last fall, damning safety and labor accusations in October, and a steady stream of cash going out the door to get the Model 3 and Gigafactory production lines up to speed.",
+    "attributes":[
+
+    ],
+    "sections":[
+      {
+        "title":"TESLA REVENUE VERSUS INCOME/LOSS",
+        "paragraph":"The company reported that Model 3 deliveries were 1,550 in 2017, according to a report released on January 3rd, and in the fourth quarter of last year, 2,425 Model 3s were made, according to the automaker. Just after the car’s launch, another 260 were built in the third quarter.\n\nOverall, Tesla delivered more than 102,000 vehicles in 2017 when Model S and Model X vehicles are included, above its target of finding homes for 100,000 vehicles in the year.\n\nTesla’s third quarter report from 2017 showed the company’s efforts to get the Model 3 into production are costing a fortune. The company lost more than $600 million in that three-month period alone, more than it lost in all of 2016. Therefore, the full-year loss numbers make for grim reading.",
+        "images":[
+          "http://localhost:8080/image/1518054811157.jpg"
+        ]
+      }
+    ],
+    "videoURL":"",
+    "viewCount":0,
+    "comments":[
+
+    ],
+    "publishedDate":1518054843082,
+    "emotionPoints":{
+      "1":0,
+      "2":0,
+      "3":0,
+      "4":0,
+      "5":0
+    }
   }
-*/
+]

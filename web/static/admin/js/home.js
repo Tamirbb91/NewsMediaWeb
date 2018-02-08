@@ -22,24 +22,24 @@ function deletePost(){
             var result = JSON.parse(data);
             console.log(result);
             if (result["result"] === 'failed') {
-                $("#toast").html(result["message"]).css("display", "block");
+                $("#toast").addClass("rise").html(result["message"]).css("display", "block");
                 window.setTimeout(function () {
-                    $("#toast").html("").css("display", "none");
+                    $("#toast").html("").removeClass("rise").css("display", "none");
                 }, 3000);
             }
 
             if (result["result"] === 'success') {
-                $("#toast").html(result["message"]).css("display", "block");
+                $("#toast").addClass("rise").html(result["message"]).css("display", "block");
                 window.setTimeout(function () {
-                    $("#toast").html("").css("display", "none");
+                    $("#toast").html("").removeClass("rise").css("display", "none");
                 }, 3000);
                 self.parent().parent().remove();
             }
         },
         error: function (e) {
-            $("#toast").html("Failed. Please try again.").css("display", "block");
+            $("#toast").html("Failed. Please try again.").addClass("rise").css("display", "block");
             window.setTimeout(function () {
-                $("#toast").html("").css("display", "none");
+                $("#toast").html("").removeClass("rise").css("display", "none");
             }, 3000);
         }
     });
@@ -51,9 +51,10 @@ function editPost(){
 }
 
 function logout(){
-    alert("logout");
+    window.location = "/admin";
 }
 
 function newPost(){
     window.location = "/static/admin/jsp/new.jsp";
 }
+

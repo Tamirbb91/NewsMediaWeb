@@ -10,17 +10,18 @@
 <html>
 <head>
     <title>Admin Panel</title>
-    <link rel="stylesheet" type="text/css" href="../css/new.css">
-    <script src="../js/jquery.min.js" type="text/javascript"></script>
-    <script src="../js/jquery.cookie.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../js/new.js"></script>
+    <link rel="stylesheet" type="text/css" href="<c:url value="/static/admin/css/new.css"/>">
+    <link rel="icon" type="image/png" href="<c:url value="/static/admin/image/announcement.png"/>">
+    <script type="text/javascript" src="<c:url value="/static/admin/js/jquery.min.js"/>"></script>
+    <script type="text/javascript" src="<c:url value="/static/admin/js/jquery.cookie.js"/>"></script>
+    <script type="text/javascript" src="<c:url value="/static/admin/js/new.js"/>"></script>
 </head>
 <body>
 <div id="header">
-    <img id="logo" src="../image/unread.png">
+    <img id="logo" src="<c:url value="/static/admin/image/logo.png"/>" alt="header logo">
     <div id="admin_info">
         <div id="admin_profile">
-            <img src="${admin.image}">
+            <img src="${admin.image}" alt="admin profile image">
         </div>
         <div id="admin_name">
             ${admin.firstName} ${admin.lastName}
@@ -91,7 +92,6 @@
                     <input name="sectionImage" type="file" multiple/>
                     <input type="button" value="Upload" />
                 </form>
-                <input class="images_path" type="text" value="">
             </div>
         </div>
         <div class="section_add">

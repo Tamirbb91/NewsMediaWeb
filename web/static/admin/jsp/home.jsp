@@ -10,16 +10,17 @@
 <html>
 <head>
     <title>Admin Panel</title>
-    <link rel="stylesheet" type="text/css" href="<c:url value="static/admin/css/home.css"/>">
-    <script src="<c:url value="static/admin/js/jquery.min.js"/>" type="text/javascript"></script>
-    <script type="text/javascript" src="<c:url value="static/admin/js/home.js"/>"></script>
+    <link rel="stylesheet" type="text/css" href="<c:url value="/static/admin/css/home.css"/>">
+    <link rel="icon" type="image/png" href="<c:url value="/static/admin/image/announcement.png"/>">
+    <script src="<c:url value="/static/admin/js/jquery.min.js"/>" type="text/javascript"></script>
+    <script type="text/javascript" src="<c:url value="/static/admin/js/home.js"/>"></script>
 </head>
 <body>
     <div id="header">
-        <img id="logo" src="<c:url value="static/admin/image/unread.png"/>">
+        <img id="logo" src="<c:url value="/static/admin/image/logo.png"/>" alt="header logo">
         <div id="admin_info">
             <div id="admin_profile">
-                <img src="${admin.image}">
+                <img src="${admin.image}" alt="admin profile image">
             </div>
             <div id="admin_name">
                 ${admin.firstName} ${admin.lastName}
@@ -43,7 +44,15 @@
         <c:forEach items="${myPost}" var="item">
             <div class="my_post">
                 <div class="my_post_super">
-                    <div class="my_post_category">${item.category}</div>
+                    <div class="my_post_category">
+                        <c:choose>
+                            <c:when test="${item.category == 'BREAKING'}">Breaking</c:when>
+                            <c:when test="${item.category == 'HOW_I_WORK'}">How I work</c:when>
+                            <c:when test="${item.category == 'APP_REVIEW'}">App review</c:when>
+                            <c:when test="${item.category == 'BOOK_REVIEW'}">Book review</c:when>
+                            <c:when test="${item.category == 'BUSINESS'}">Business</c:when>
+                        </c:choose>
+                    </div>
                     <div class="my_post_view_count">
                         <div class="my_post_view_count_icon">
                             <svg fill="#444" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">

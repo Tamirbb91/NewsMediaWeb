@@ -1,4 +1,6 @@
 $(function () {
+    $("#logout").click(logout);
+
     $("#logo").click(function(){
         window.location = "/news";
     });
@@ -88,7 +90,7 @@ $(function () {
 
 function publishNews(){
     var news = new News();
-    news.id = $(".content").attr("data-id");
+    news.id = $("#contents").attr("data-id");
     news.title = $("#title_value").val();
     news.category = $("input[name=category]:checked").val();
 
@@ -120,7 +122,7 @@ function publishNewsToServer(news){
     $.ajax({
         url: "/updateNews",
         type: "POST",
-        data: {"news": news},
+        data: {"news": JSON.stringify(news)},
         success: function(data, status, xhr){
             // console.log(data);
             // console.log(status);
@@ -128,9 +130,9 @@ function publishNewsToServer(news){
             var result = JSON.parse(data);
             console.log(result);
             if(result["result"] === 'failed'){
-                $("#toast").html(result["message"]).css("display", "block");
+                $("#toast").html(result["message"]).addClass("rise").css("display", "block");
                 window.setTimeout(function(){
-                    $("#toast").html("").css("display", "none");
+                    $("#toast").html("").removeClass("rise").css("display", "none");
                 }, 3000);
             }
 
@@ -142,8 +144,8 @@ function publishNewsToServer(news){
 }
 
 function Attribute(key, value){
-    this.key = key;
-    this.value = value;
+    this.title = key;
+    this.body = value;
 }
 
 function Comment(username, comment, date){

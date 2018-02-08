@@ -1,10 +1,17 @@
 package com.dao;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationConfig;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import com.model.News;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -19,6 +26,7 @@ public class NewsDAO {
     public void init(){
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+//        mapper.configure(DeserializationFeature.ACCEPT_EMPTY_ARRAY_AS_NULL_OBJECT, true);
 
         try {
             TypeReference<List<News>> mapType = new TypeReference<List<News>>() {};
@@ -50,6 +58,17 @@ public class NewsDAO {
                 newsList.add(changedItem);
                 return;
             }
+        }
+    }
+
+    public void updateFile(String text){
+        try{
+            FileOutputStream outputStream = new FileOutputStream(this.getClass().getClassLoader().getResource("news.json").getFile(), true);
+            byte[] strToBytes = text.getBytes();
+            outputStream.write(strToBytes);
+            outputStream.close();
+        } catch (Exception e){
+            e.printStackTrace();
         }
     }
 

@@ -118,6 +118,17 @@
     </servlet-mapping>
     
     <!--Servlet configurations [END]-->
+
+    <filter>
+        <filter-name>authFilter</filter-name>
+        <filter-class>com.filter.AuthFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>authFilter</filter-name>
+        <url-pattern>/static/admin/jsp/*</url-pattern>
+    </filter-mapping>
+
     <!--Listener configurations [START]-->
 
     <listener>

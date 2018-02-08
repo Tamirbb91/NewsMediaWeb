@@ -1,4 +1,6 @@
 $(function () {
+    $("#logout").click(logout);
+
     $("#logo").click(function(){
         window.location = "/news";
     });
@@ -87,7 +89,7 @@ $(function () {
                         )
                         .append(
                             $("<form>").attr({
-                                class: "section_image",
+                                class: "sectionImageUpload",
                                 enctype: "multipart/form-data"
                             })
                                 .append(
@@ -103,12 +105,6 @@ $(function () {
                                         value: "Upload"
                                     }).click(imageUpload)
                                 )
-                        )
-                        .append(
-                            $("input").attr({
-                                type: "text",
-                                // disabled: "true"
-                            })
                         )
                 )
                 .insertBefore(this);
@@ -153,14 +149,20 @@ function publishNews(){
         if($(this).find(".section_paragraph_value").val()){
             section.paragraph = $(this).find(".section_paragraph_value").val();
         }
+        if($(this).find(".sectionImageUpload").attr("data-id")){
+            var dataId = $(this).find(".sectionImageUpload").attr("data-id");
+            console.log(dataId);
+            if(dataId){
+                console.log(dataId);
+                var sectionImages = JSON.parse(dataId);
+                console.log(sectionImages);
+                console.log(sectionImages["images"]);
+                var imagesPath = sectionImages["images"];
 
-        var sectionImages = JSON.parse($(this).find(".sectionImageUpload").attr("data-id"));
-        console.log(sectionImages);
-        console.log(sectionImages["images"]);
-        var imagesPath = sectionImages["images"];
-
-        for(var i=0; i < imagesPath.length; i++){
-            section.addImage(imagesPath[i]);
+                for(var i=0; i < imagesPath.length; i++){
+                    section.addImage(imagesPath[i]);
+                }
+            }
         }
 
         news.addSection(section);
@@ -177,9 +179,9 @@ function publishNewsToServer(news){
         var result = JSON.parse(data);
         console.log(result);
         if(result["result"] === 'failed'){
-            $("#toast").html(result["message"]).css("display", "block");
+            $("#toast").html(result["message"]).css("display", "block").addClass("rise");
             window.setTimeout(function(){
-                $("#toast").html("").css("display", "none");
+                $("#toast").html("").removeClass("rise").css("display", "none");
             }, 3000);
         }
 
@@ -190,8 +192,8 @@ function publishNewsToServer(news){
 }
 
 function Attribute(key, value){
-    this.key = key;
-    this.value = value;
+    this.title = key;
+    this.body = value;
 }
 
 function Comment(username, comment, date){
@@ -219,6 +221,13 @@ function News(){
     this.viewCount = 0;
     this.comments = [];
     this.publishedDate = ""
+    this.emotionPoints = {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+    };
 }
 
 News.prototype.addAttribute = function(attribute){
@@ -250,27 +259,30 @@ function imageUpload() {
             var result = JSON.parse(data);
             console.log(result);
             if (result["result"] === 'failed') {
-                $("#toast").html(result["message"]).css("display", "block");
+                $("#toast").html(result["message"]).addClass("rise").css("display", "block");
                 window.setTimeout(function () {
-                    $("#toast").html("").css("display", "none");
+                    $("#toast").html("").removeClass("rise").css("display", "none");
                 }, 3000);
             }
 
             if (result["result"] === 'success') {
-                $("#toast").html(result["message"]).css("display", "block");
+                $("#toast").html(result["message"]).addClass("rise").css("display", "block");
                 window.setTimeout(function () {
-                    $("#toast").html("").css("display", "none");
+                    $("#toast").html("").removeClass("rise").css("display", "none");
                 }, 3000);
                 self.parent().attr("data-id", JSON.stringify({images : result["images"]}));
             }
         },
         error: function (e) {
-            $("#toast").html("Image upload failed. Please try again.").css("display", "block");
+            $("#toast").html("Image upload failed. Please try again.").css("display", "block").addClass("rise");
             window.setTimeout(function () {
-                $("#toast").html("").css("display", "none");
+                $("#toast").html("").removeClass("rise").css("display", "none");
             }, 3000);
             self.parent().attr("data-id",JSON.stringify({images: []}));
         }
     });
 }
 
+function logout(){
+    window.location = "/admin";
+}

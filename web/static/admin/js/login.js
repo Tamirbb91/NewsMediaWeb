@@ -12,6 +12,13 @@ $(function(){
             login();
         }
     });
+
+    $("#email").focusout(function(){
+        $("#email").addClass("shake");
+        setTimeout(function(){
+            $("#email").removeClass("shake");
+        }, 1000)
+    });
 });
 
 function login(){
@@ -24,9 +31,9 @@ function login(){
         var result = JSON.parse(data);
         console.log(result);
         if(result["result"] === 'failed'){
-            $("#toast").html(result["message"]).css("display", "block");
+            $("#toast").html(result["message"]).addClass("rise").css("display", "block");
             window.setTimeout(function(){
-                $("#toast").html("").css("display", "none");
+                $("#toast").html("").removeClass("rise").css("display", "none");
             }, 3000);
         }
 

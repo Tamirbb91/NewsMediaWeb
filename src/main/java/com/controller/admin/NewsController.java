@@ -1,19 +1,19 @@
 package com.controller.admin;
 
-import com.dao.AdminDAO;
 import com.dao.NewsDAO;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.model.Admin;
 import com.model.News;
-import com.model.Section;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -83,6 +83,8 @@ public class NewsController extends HttpServlet{
             NewsDAO s = ((NewsDAO) this.getServletContext().getAttribute("news"));
             s.addNews(news);
             this.getServletContext().setAttribute("news", s);
+            s.updateFile(mapper.writeValueAsString(news));
+
             out.print("{\"result\": \"success\",\"message\": \"News is published successfully.\"}");
             return;
         } catch(Exception e){

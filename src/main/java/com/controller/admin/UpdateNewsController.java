@@ -68,6 +68,11 @@ public class UpdateNewsController extends HttpServlet{
                 if(s.newsList.get(i).getId().equals(news.getId())){
                     News temp = s.newsList.get(i);
                     news.setCoverImage(temp.getCoverImage());
+                    news.setAdmin(temp.getAdmin());
+                    news.setViewCount(temp.getViewCount());
+                    news.setComments(temp.getComments());
+                    news.setPublishedDate(temp.getPublishedDate());
+                    news.setEmotionPoints(temp.getEmotionPoints());
                     List<Section> sections = news.getSections();
                     for(int j=0; j< sections.size(); j++){
                         temp.getSections().get(j).setTitle(sections.get(j).getTitle());

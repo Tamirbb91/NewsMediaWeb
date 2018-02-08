@@ -22,6 +22,7 @@ public class LoginController extends HttpServlet{
         HttpSession session = req.getSession();
         session.setMaxInactiveInterval(-1);
         session.invalidate();
+        resp.sendRedirect("/static/admin/jsp/login.jsp");
     }
 
     @Override
