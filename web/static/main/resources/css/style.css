@@ -224,6 +224,7 @@ a {
     border-top-right-radius: 25px;
 }
 
+
 .section_solid {
     border-bottom-right-radius: 25px;
 }
@@ -552,16 +553,16 @@ a {
     right: 30px;
     font-size: 14pt;
     display: block;
-    max-width: 150px;
-    height: 20px;
+    max-width: 42px;
+    height: 42px;
     text-decoration: none;
     padding: 10px;
     background-color: #0077dd;
     color: #fff;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
-.takemetopdiv{
+.takemetopdiv {
     text-align: center;
 }
 
@@ -579,8 +580,92 @@ a {
     display: inline-block;
 }
 
-#divreadmore{
+#divreadmore {
     /*max-width: 70px;*/
     clear: right;
     display: none;
+}
+
+#fixed_animations {
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    /*border-top-right-radius: 15px;*/
+    border: 2px solid #3c3c3c;
+    position: fixed;
+    bottom: 40%;
+    right: 0px;
+}
+
+.fixedanchoremotions {
+    cursor: pointer;
+}
+
+.authors_container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+.author_info {
+    text-align: center;
+    margin: 20px;
+}
+
+.author_name {
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.author_email {
+    cursor: pointer;
+    font-size: 18pt;
+    color: #0077dd !important;
+}
+
+.author_image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100px;
+}
+
+.author_total {
+    color: #0077dd;
+    font-size: 15pt;
+}
+
+.author_section {
+    background-color: #fff;
+    font-size: 25pt;
+    font-weight: bold;
+    max-width: 700px;
+    min-height: 96px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: inline-block;
+}
+
+.author_section_image {
+    border: 2px solid #e74c3c;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    float: right;
+    display: inline;
+    margin-top:30px;
+}
+
+.author_section_image img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.section_outer{
+    overflow: auto;
 }

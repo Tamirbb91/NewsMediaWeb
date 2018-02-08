@@ -11,9 +11,9 @@
     <div class="section swing">
         <p><span class="section_category section_breaking blink_me"><c:out
                 value="${news.category}"/></span><span class="section_totalview">- &nbsp; <img
-                src="<c:url value="static/main/resources/contents/totalviews.png"/>" alt="totalviews"/> <c:out
+                src="<c:url value="/static/main/resources/contents/totalviews.png"/>" alt="totalviews"/> <c:out
                 value="${news.viewCount}"/> &nbsp; </span> <span class="section_comments"><img
-                src="static/main/resources/contents/comments.png" alt="comments"/> <c:out
+                src="<c:url value="/static/main/resources/contents/comments.png"/>" alt="comments"/> <c:out
                 value="${news.comments.size()}"/> &nbsp; </span></p>
         <a href="
                     <c:url value="/details">

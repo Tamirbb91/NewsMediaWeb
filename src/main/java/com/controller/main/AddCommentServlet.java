@@ -4,17 +4,15 @@ import com.dao.NewsDAO;
 import com.model.Comment;
 import com.model.News;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Date;
 import java.util.List;
 
-public class AddCommentServlet extends HttpServlet{
+public class AddCommentServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String userName = req.getParameter("username");
@@ -29,11 +27,11 @@ public class AddCommentServlet extends HttpServlet{
                 break;
             }
         }
-        if(foundNews!=null){
-            foundNews.addComment(new Comment(userName,comment,date));
-            PrintWriter out = resp.getWriter();
-            out.write("Success!");
-        }else{
+        if (foundNews != null) {
+            foundNews.addComment(new Comment(userName, comment, date));
+            req.setAttribute("cnew", foundNews);
+            req.getRequestDispatcher("static/main/morecomment.jsp").forward(req, resp);
+        } else {
             resp.sendRedirect("/main");
         }
     }

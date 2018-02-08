@@ -8,6 +8,7 @@
 <%@ include file="includes/header.jsp" %>
 
 <c:if test="${not empty category}" var="hasCategory"/>
+<c:if test="${not empty emotion}" var="hasEmotion"/>
 <input type="hidden" class="category_class" value="<c:out value="${category}"/>" />
 <div class="container">
     <div class="container_news">
@@ -26,6 +27,11 @@
                     <c:when test="${hasCategory}">
                         <c:out value="${category}"/>
                     </c:when>
+                    <c:when test="${hasEmotion}">
+                        <img src="<c:url value="/static/main/resources/contents/reactions/reaction_${emotion}.png"/>"
+                             alt="emotion${emotion}"
+                             width="35px" />
+                    </c:when>
                     <c:otherwise>
                         <c:out value="Good morning!"/>
                     </c:otherwise>
@@ -39,7 +45,7 @@
                         value="${news.category}"/></span><span class="section_totalview">- &nbsp; <img
                         src="<c:url value="/static/main/resources/contents/totalviews.png"/>" alt="totalviews"/> <c:out
                         value="${news.viewCount}"/> &nbsp; </span> <span class="section_comments"><img
-                        src="static/main/resources/contents/comments.png" alt="comments"/> <c:out
+                        src="/static/main/resources/contents/comments.png" alt="comments"/> <c:out
                         value="${news.comments.size()}"/> &nbsp; </span></p>
                 <a href="
                     <c:url value="/details">
@@ -67,4 +73,6 @@
         </div>
     </div>
 </div>
+
+
 <%@ include file="includes/footer.jsp" %>

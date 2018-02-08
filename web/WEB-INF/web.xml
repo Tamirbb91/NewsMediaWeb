@@ -107,7 +107,16 @@
         <servlet-name>readmoreServlet</servlet-name>
         <url-pattern>/readmore</url-pattern>
     </servlet-mapping>
-
+    
+    <servlet>
+        <servlet-name>authorsServlet</servlet-name>
+        <servlet-class>com.controller.main.AuthorsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>authorsServlet</servlet-name>
+        <url-pattern>/authors</url-pattern>
+    </servlet-mapping>
+    
     <!--Servlet configurations [END]-->
     <!--Listener configurations [START]-->
 

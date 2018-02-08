@@ -35,15 +35,15 @@
                             ">BOOK REVIEW</a>
         </p>
         <hr class="footer_silverline" />
-        <div class="footer_logo"><img width="200px" src="<c:url value="static/main/resources/contents/footer_logo.png"/>" alt="readmore_logo" />	</div>
+        <div class="footer_logo"><img width="200px" src="<c:url value="/static/main/resources/contents/footer_logo.png"/>" alt="readmore_logo" />	</div>
         <p class="footer_quote">KNOWLEDGE IS EVERYTHING, READ EVERYDAY, READ MORE.</p>
         <p>
             <a href="https://www.facebook.com" target="_blank">
-                <img src="<c:url value="static/main/resources/contents/facebook.png"/>" alt="Facebook" width="32" />                </a>&nbsp;
+                <img src="<c:url value="/static/main/resources/contents/facebook.png"/>" alt="Facebook" width="32" />                </a>&nbsp;
             <a href="https://www.twitter.com" target="_blank">
-                <img src="<c:url value="static/main/resources/contents/twitter.png"/>" alt="Twitter" width="32" />                </a>&nbsp;
+                <img src="<c:url value="/static/main/resources/contents/twitter.png"/>" alt="Twitter" width="32" />                </a>&nbsp;
             <a href="https://www.instagram.com" target="_blank">
-                <img src="<c:url value="static/main/resources/contents/instagram.png"/>" alt="Instagram" width="32" />                </a>
+                <img src="<c:url value="/static/main/resources/contents/instagram.png"/>" alt="Instagram" width="32" />                </a>
         </p>
         <p class="footer_developedlabel">Developed by:</p>
         <p class="footer_developers">KHOSBAYAR BUYANDALAI <span class="bluespan">/</span> TAMIR BATMUNKH</p>

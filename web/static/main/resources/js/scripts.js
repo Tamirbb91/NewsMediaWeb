@@ -2,7 +2,9 @@ $(function () {
     $("#comment_send").click(checkValidation);
     $("#btn_readmore").click(clickReadmore);
     $(".anchoremotions").click(clickedEmotions);
+    $(".fixedanchoremotions").hover(focusedEmotions, unfocusedEmotions);
 });
+
 
 function checkValidation() {
     var patternName = RegExp('^[a-zA-Z\-\. ]{2,}$');
@@ -15,15 +17,15 @@ function checkValidation() {
         comment_alertparag.text("Lets be creative! Write a comment with at least 10 characters to be creative!");
         if (patternBody.test(comment_body.val())) {
             comment_alertparag.removeClass("comment_alert");
-            $("#comment_send").html("<img width='25' src='static/main/resources/contents/loading.gif' />");
+            $("#comment_container").html("<img width='25' src='static/main/resources/contents/loading.gif' />");
 
             $.post("/addcomment", {
                 "username": comment_name.val(),
                 "comment": comment_body.val(),
                 "newsid": newsid.val()
             })
-                .done(function () {
-                    setTimeout(addCommentToBody, 900);
+                .done(function (data) {
+                    setTimeout(addCommentToBody(data), 1000);
                 })
                 .fail(function () {
                     alert("Oops there is error, sorry try again!");
@@ -31,7 +33,6 @@ function checkValidation() {
                 .always(function () {
                     setTimeout(function () {
                         comment_body.val("");
-                        $("#comment_send").html("POST IT");
                     }, 1000);
                 });
 
@@ -47,21 +48,7 @@ function checkValidation() {
 }
 
 function addCommentToBody(data) {
-    $("#comment_alertparag").val(data);
-    var listCount = $("#comment_timeline li").length;
-    console.log(listCount);
-    var direction = listCount % 2 == 0 ? "direction-r" : "direction-l";
-    $("<li>\n" +
-        "                    <div class=\" " + direction + " \">\n" +
-        "                        <div class=\"flag-wrapper\">\n" +
-        "                            <span class=\"hexa\"></span>\n" +
-        "                            <span class=\"flag\">" + $('#comment_name').val() + "</span>\n" +
-        "                            <span class=\"time-wrapper\"><span class=\"time\">" + Date() + "</span></span>\n" +
-        "                        </div>\n" +
-        "                        <div class=\"desc\">" + $('#comment_body').val() + "\n" +
-        "                        </div>\n" +
-        "                    </div>\n" +
-        "                </li>").appendTo("#comment_timeline");
+    $("#comment_container").html(data);
 }
 
 function clickedEmotions() {
@@ -96,7 +83,7 @@ function clickReadmore() {
     console.log(cat);
     $("#divreadmore").show();
     $("#divreadmore .bubble").html("<img width='30' src='static/main/resources/contents/loading.gif' />");
-    $.get("/readmore", {"newsids": newsids,"category":cat})
+    $.get("/readmore", {"newsids": newsids, "category": cat})
         .done(addMoreNews)
         .fail(function (e) {
             console.log(e);
@@ -105,18 +92,27 @@ function clickReadmore() {
         .always(function () {
             setTimeout(function () {
                 $("#divreadmore .bubble").hide();
-            }, 2000);
+            }, 500);
         });
 }
 
 function addMoreNews(data) {
     console.log(data);
-    if (data!="nothing new") {
+    if (data != "nothing new") {
         setTimeout(function () {
             $("#divreadmore").append(data);
-        }, 2000);
+        }, 500);
     } else {
         $(".div_readmore").hide();
     }
 
+}
+
+function focusedEmotions() {
+    $(this).addClass("blink_me");
+}
+
+
+function unfocusedEmotions() {
+    $(this).removeClass("blink_me");
 }
