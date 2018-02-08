@@ -1,8 +1,8 @@
 [
   {
-    "id":"newsid_1",
+    "id":"1510050052210",
     "title":"I'm National Book Foundation Executive Director Lisa Lucas, and This Is How I Work",
-    "category":"BREAKING",
+    "category":"HOW_I_WORK",
     "admin":{
       "firstName":"Tamir",
       "lastName":"Batmunkh",
@@ -38,15 +38,13 @@
         "title":"First of all, tell us a little about your background and how you got to where you are today.",
         "paragraph":"It was kind of a wacky path here, although once I left college, I’ve almost always worked for nonprofits. I started at Steppenwolf Theatre Company, where I worked in Development. Then I moved back to the East Coast and worked in development and marketing at a youth theater (called TADA!) before landing at the Tribeca Film Institute, where I was the Director of Education for years.<br>In the end, I loved books most of all and so I ended up taking all of that fundraising, marketing, and program experience and dedicating it to the written word. Changing careers (or disciplines) at 32 was slightly daunting, and I started through volunteer work at the Brooklyn Book Festival and Guernica Magazine. Eventually, Guernica turned into a proper, paying job and I did that for 3.5 years. Its proximity to the book industry taught me so much and during that time I fell stone cold in love with it. And that landed me here.",
         "images":[
-          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg",
-          ""
+          "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
         ]
       },
       {
         "title":"Take us through a recent workday.",
         "paragraph":"No day is the same here. Yesterday, we had an office cleaning day, because books pile up. So it was all boxes, tape, loud music, pizza and Marie Kondo around here. Otherwise, there are a lot of meetings. You’d think that with such a small staff there wouldn’t be so many meetings, but we’re always working together and it just ends up happening. We’re also a national organization, so many of our partners are outside of New York City and so we love a good conference call.<br><br> Small organizations get a lot done with very few people, so we all wear a lot of hats. On any given day we are discussing potential judges for the National Book Awards, paying the bills, writing/approving copy for our website or newsletter, writing grant proposals, throwing parties, prepping for board meetings, you name it. We also end up doing arts & crafts projects far more often than you might guess.",
         "images":[
-          "",
           "https://i.kinja-img.com/gawker-media/image/upload/s--7lbuSGVx--/c_scale,fl_progressive,q_80,w_800/u7efjm4ib2uit1wowmop.jpg"
         ]
       },
@@ -54,8 +52,6 @@
         "title":"What apps, gadgets, or tools can’t you live without?",
         "paragraph":"My phone. My little brother calls it “Lisa’s mobile command center.”",
         "images":[
-          "",
-          ""
         ]
       },
       {
@@ -98,7 +94,7 @@
     }
   },
   {
-    "id":"newsid_2",
+    "id":"1508050052210",
     "title":"I'm Buckyballs Inventor Craig Zucker, and This Is How I Work",
     "category":"HOW_I_WORK",
     "admin":{
@@ -264,7 +260,7 @@
       "lastName":"Buyandalai",
       "email":"hs.khosbayar@gmail.com",
       "password":"Password",
-      "image":""
+      "image":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAIAAgDGAAAAAQAAAAAAAAtJAAAAJDkxODZhNzRjLTQzMDktNDFhZS1iMzlmLTRlMjA2MzM5ZjUwOQ.jpg"
     },
     "coverImage":"http://localhost:8080/image/1518051547853.jpg",
     "introParagraph":"Mongolia is renowned for its sweeping countryside. But before you head out of the capital, here is our definitive list of must-do activities in Ulaanbaatar. We’ve included a mix of history, culture, food and fun to make sure you don’t miss what this bustling city is about. This will be your go-to list for both summer and winter.",
@@ -311,7 +307,7 @@
   {
     "id":"1518054843082",
     "title":"Tesla burns through $2 billion in 2017",
-    "category":"BREAKING",
+    "category":"BUSINESS",
     "admin":{
       "firstName":"Khosbayar",
       "lastName":"Buyandalai",
@@ -339,6 +335,357 @@
 
     ],
     "publishedDate":1518054843082,
+    "emotionPoints":{
+      "1":0,
+      "2":0,
+      "3":0,
+      "4":0,
+      "5":0
+    }
+  },
+  {
+    "id":"1518056866918",
+    "title":"I'm Slack CTO Cal Henderson, and This Is How I Work",
+    "category":"HOW_I_WORK",
+    "admin":{
+      "firstName":"Khosbayar",
+      "lastName":"Buyandalai",
+      "email":"hs.khosbayar@gmail.com",
+      "password":"Password",
+      "image":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAIAAgDGAAAAAQAAAAAAAAtJAAAAJDkxODZhNzRjLTQzMDktNDFhZS1iMzlmLTRlMjA2MzM5ZjUwOQ.jpg"
+    },
+    "coverImage":"http://localhost:8080/image/1518056764392.jpg",
+    "introParagraph":"Cal Henderson is the co-founder and CTO of Slack, the leading workplace messaging platform, which Henderson’s team invented while trying to build an online game called Glitch. That wasn’t the first time Henderson and his Slack co-founder Stewart Butterfield set out to build a game and ended up with a startup. In the early 2000s, Henderson joined Butterfield’s team to build Game Neverending, which spawned the photo-sharing site Flickr. He’s been programming (and blogging at iamcal.com) for 15 years.\n\nWe talked to Henderson about how he works, how he Slacks, and how it feels to pivot into massive success—twice.",
+    "attributes":[
+      {
+        "title":"Location",
+        "body":"San Francisco"
+      },
+      {
+        "title":"Current Gig",
+        "body":"CTO of Slack"
+      },
+      {
+        "title":"One word that best describes how you work",
+        "body":"Relentless"
+      },
+      {
+        "title":"Current mobile device",
+        "body":"iPhone 7 with the ugly battery case"
+      },
+      {
+        "title":"Current computer",
+        "body":"11\" MacBook Air, but running Windows"
+      }
+    ],
+    "sections":[
+      {
+        "title":"Tell me a little about your background and how you got to where you are today",
+        "paragraph":"I got into computers at a pretty young age; it started when my older cousin got a Texas Instruments TI-99 when I was around six. Like most computers at the time, it came with a BASIC interpreter, and I was fascinated. Within a few years I had decided that programming is what I wanted to do when I grew up. I’ve been pretty obsessed ever since.\n\nI’ve been in San Francisco for 12 years now, initially coming to San Francisco from Vancouver with the acquisition of Flickr by Yahoo. During my time at Flickr, I spearheaded a number of technologies that are still commonly used, including APIs, oAuth, and oEmbed, and wrote a best-selling O’Reilly book, Building Scalable Web Sites. I worked on Flickr at Yahoo for 4 years before leaving in 2009 to start an MMO [massively multiplayer online game] called Glitch with Stewart Butterfield, Eric Costello and Serguei Mourachov, all from Flickr.",
+        "images":[
+
+        ]
+      },
+      {
+        "title":"What’s your workspace setup like?",
+        "paragraph":"I have a desk in our headquarters, but I’m rarely found there. Most of my days are spent in meetings. Given our SF HQ office is 50,000 sq ft, I’m able to get most of my 15,000 daily steps during work hours.\nHowever, when I am found at my desk, you’ll notice that my desk is usually a mountain of junk. I use a very small laptop (11\" MacBook Air, RIP) but plug into external monitors whenever I can. I’m also a mechanical keyboard nerd, and currently use a tenkeyless Varmilo with blue Cherry MX switches. It’s super loud and sounds a bit like a typewriter.",
+        "images":[
+
+        ]
+      },
+      {
+        "title":"What’s your best time-saving shortcut or life hack?",
+        "paragraph":"Listening to audiobooks at 2–3x speed. I switched almost exclusively to audio books about 5 years ago, so I could combine my walking commute with reading, but finding the speed setting has been a real boost.",
+        "images":[
+
+        ]
+      },
+      {
+        "title":"How do you recharge? What do you do when you want to forget about work?",
+        "paragraph":"Listening to books or podcasts at 3x speed while playing iPhone games; Bit City is the latest one to catch on in the office. Or, spend time with my 3-year-old son. Nothing forces you to reorient your attention like a toddler.",
+        "images":[
+
+        ]
+      }
+    ],
+    "videoURL":"",
+    "viewCount":0,
+    "comments":[
+
+    ],
+    "publishedDate":1518056866918,
+    "emotionPoints":{
+      "1":0,
+      "2":0,
+      "3":0,
+      "4":0,
+      "5":0
+    }
+  },
+
+  {
+    "id":"1518057548761",
+    "title":"From \"Fire and Fury\" to Political Firestorm",
+    "category":"BOOK_REVIEW",
+    "admin":{
+      "firstName":"Tamir",
+      "lastName":"Batmunkh",
+      "email":"tamirsnarf@gmail.com",
+      "password":"Password",
+      "image":"https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
+    },
+    "coverImage":"http://localhost:8080/image/1518057349694.jpg",
+    "introParagraph":"",
+    "attributes":[
+      {
+        "title":"Author",
+        "body":"Micheal Wolff"
+      },
+      {
+        "title":"Subject",
+        "body":"Presidency of Donald Trump"
+      },
+      {
+        "title":"Published",
+        "body":"January 5, 2018"
+      },
+      {
+        "title":"Publisher",
+        "body":"Henry Holt and Company"
+      }
+    ],
+    "sections":[
+      {
+        "title":"FIRE AND FURY \n\"Inside the Trump White House\"",
+        "paragraph":"He is a New Yorker in Washington, far more consumed with the news media and personalities than policy issues. He elides facts, fudges the specifics and dispenses with professional norms in the service of success and status. And while affecting a contempt for the mainstream press, he cannot help dropping the mask to reveal the double game he is playing. I am talking, of course, of the writer Michael Wolff, who with “Fire and Fury: Inside the Trump White House” has delivered an altogether fitting, if ultimately unsatisfying, book on the chaotic first nine months of President Trump, another media-obsessed Manhattanite.",
+        "images":[
+          "http://localhost:8080/image/1518057517543.jpg"
+        ]
+      },
+      {
+        "title":"",
+        "paragraph":"Wolff is a media writer by trade and, like his protagonist, he repeatedly scorns the mainline press for what he suggests is its liberal bias. He singles out this paper for treating the Trump presidency as anomalous. Yet putting aside the irony that his own depiction sketches out a shockingly aberrant White House, Wolff shows that his media-bashing is not on the level when he switches from the Ailes hymnal to a more conventional liberal perspective. In a jab at the media, he calls Richard Spencer, the racist alt-right activist, “catnip for the liberal press,” but then effectively makes the liberals’ case by giving Spencer an open mic to proclaim “we are the Trump vanguard.” And Wolff casually refers to a “virulent, if not anti-Semitic (at least toward liberal Jews), right-wing West Wing.”",
+        "images":[
+          "http://localhost:8080/image/1518057546601.jpg"
+        ]
+      }
+    ],
+    "videoURL":"",
+    "viewCount":0,
+    "comments":[
+
+    ],
+    "publishedDate":1518057548761,
+    "emotionPoints":{
+      "1":0,
+      "2":0,
+      "3":0,
+      "4":0,
+      "5":0
+    }
+  },
+  {
+    "id":"1518058450575",
+    "title":"Square Cash",
+    "category":"APP_REVIEW",
+    "admin":{
+      "firstName":"Tamir",
+      "lastName":"Batmunkh",
+      "email":"tamirsnarf@gmail.com",
+      "password":"Password",
+      "image":"https://pbs.twimg.com/profile_images/3038246814/ffa606df1e552efa007278135a09889a_400x400.jpeg"
+    },
+    "coverImage":"http://localhost:8080/image/1518058269164.jpg",
+    "introParagraph":"Most people in this country are familiar with Square as the company that makes those white credit card swiping machines used by cafes and other small merchants. The company also has a mobile payment app simply called Cash (we'll stick with calling it Square Cash here, for clarity). The app is very similar to Venmo, letting you pay and request money from friends. Sadly, it doesn't offer a touchless way to pay Square merchants. For that kind of functionality, you'll have to stick with Apple Pay, Android Pay (soon to be redubbed Google Pay) or LevelUp. On the other hand, Square Cash sports a super simple interface and is installed by 5 million Android users.",
+    "attributes":[
+      {
+        "title":"Seller",
+        "body":"Square, Inc."
+      },
+      {
+        "title":"Category",
+        "body":"Finance"
+      }
+    ],
+    "sections":[
+      {
+        "title":"Getting Started With Square Cash",
+        "paragraph":"To open a Square Cash account, you can enter either your mobile number or email—you don't have to have a mobile number. Next you have to enter a debit card number, and then choose a name for your $Cashtag—more on those later. Finally, and optionally, you can invite friends to sign up, netting you a $5 reward for each one who does. You can now connect a credit card as a payment source as well, but, as with other mobile payment services, you pay a 3 percent fee when paying that way. Note that Square Cash is a US-only service. If you need to pay across borders in multiple currencies, look to the PayPal app or to Xoom.",
+        "images":[
+
+        ]
+      },
+      {
+        "title":"Using Square Cash",
+        "paragraph":"Square Cash has one of the simplest, most effective interfaces I've seen in any such app. It's really just a big numeric keypad with buttons at the bottom for requesting and sending money, and at the top for seeing your account details (a head-and-shoulders icon) and transaction history (a clock).",
+        "images":[
+          "http://localhost:8080/image/1518058390124.png"
+        ]
+      },
+      {
+        "title":"Hashtag $Cashtag",
+        "paragraph":"Square Cash's big attempt to differentiate itself is through the unfortunately named $Cashtag system. Every Square Cash user is assigned a personal $Cashtag. People can send money directly to Square Cash users through their $Cashtag URL alone without asking for email addresses or phone numbers. Users can even make their $Cashtag public so anyone can send them money, like, say, a donation. $Cashtags are a neat idea, even if they do seem contrived, but their premise only works if the service catches on, which still hasn't happened in a big way.",
+        "images":[
+          "http://localhost:8080/image/1518058433333.png"
+        ]
+      },
+      {
+        "title":"Square Up With Square Cash?",
+        "paragraph":"Square Cash is just about the simplest mobile payment app I've seen. None of Venmo's payment social network or even PayPal's restaurant ordering features clutter it up. That said, you can't pay online or real-world merchants with it—just your contacts. Furthermore, its user base isn't up there with Venmo's or Apple Pay's. If bare-bones is your thing, or if the $Cashtags appeal to you, Square Cash is definitely a solid service. If you want to be able to do more with your payment app, Editors' Choice Venmo is a better option.",
+        "images":[
+
+        ]
+      }
+    ],
+    "videoURL":"",
+    "viewCount":0,
+    "comments":[
+
+    ],
+    "publishedDate":1518058450575,
+    "emotionPoints":{
+      "1":0,
+      "2":0,
+      "3":0,
+      "4":0,
+      "5":0
+    }
+  },
+  {
+    "id":"1518059459579",
+    "title":"SpaceX's Falcon Heavy launch was an incredible success — here are the best moments",
+    "category":"BREAKING",
+    "admin":{
+      "firstName":"Khosbayar",
+      "lastName":"Buyandalai",
+      "email":"hs.khosbayar@gmail.com",
+      "password":"Password",
+      "image":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAIAAgDGAAAAAQAAAAAAAAtJAAAAJDkxODZhNzRjLTQzMDktNDFhZS1iMzlmLTRlMjA2MzM5ZjUwOQ.jpg"
+    },
+    "coverImage":"http://localhost:8080/image/1518059174038.jpg",
+    "introParagraph":"The first launch of the Falcon Heavy rocket was mostly a success for SpaceX. The middle rocket core broke apart when it crashed into the water next to the company’s autonomous drone ship, and the Tesla payload overshot its target. But the launch was an otherwise excellent showcase of what the Falcon Heavy is supposed to be all about: big-time power to propel big-time payloads.",
+    "attributes":[
+      {
+        "title":"Launch date",
+        "body":"February 6, 2018"
+      },
+      {
+        "title":"Cost",
+        "body":"90 million USD(2018)"
+      },
+      {
+        "title":"Manufacturer",
+        "body":"SpaceX"
+      },
+      {
+        "title":"Mass",
+        "body":"3.132 million lbs"
+      }
+    ],
+    "sections":[
+      {
+        "title":"",
+        "paragraph":"We have liftoff.\n\nSpaceX launched its Falcon Heavy rocket — the company's biggest — into space on Tuesday.\n\nFalcon Heavy left the Kennedy Space Center in Cape Canaveral, Florida, at 3:45 p.m. ET after some initial delays. The rocket planned to carry Elon Musk's midnight-cherry-red Tesla Roadster out to Mars orbit — though it managed to exceed Mars' orbit and continue on into the Asteroid Belt. \n\nFalcon Heavy's successful liftoff could disrupt the launch industry, as the system's 134-foot-tall boosters can land themselves to be reused. Other rocket boosters on the market today are discarded after launch.\n\nThe event was a huge win for Musk and the future of private space exploration. Take a look at the highlights.",
+        "images":[
+
+        ]
+      },
+      {
+        "title":"The Falcon Heavy is propelled by 27 engines contained in three boosters — two on the sides and one in the center, under the payload.",
+        "paragraph":"",
+        "images":[
+          "http://localhost:8080/image/1518059391975.jpg"
+        ]
+      },
+      {
+        "title":"The three boosters gave the rocket a lot of power — they're capable of generating more than 5 million pounds of thrust.",
+        "paragraph":"",
+        "images":[
+          "http://localhost:8080/image/1518059414117.jpg"
+        ]
+      },
+      {
+        "title":"After the ascent, the two side boosters detached from the rocket, flipped around, and headed back down toward Florida.",
+        "paragraph":"",
+        "images":[
+          "http://localhost:8080/image/1518059456107.jpg"
+        ]
+      }
+    ],
+    "videoURL":"",
+    "viewCount":0,
+    "comments":[
+
+    ],
+    "publishedDate":1518059459579,
+    "emotionPoints":{
+      "1":0,
+      "2":0,
+      "3":0,
+      "4":0,
+      "5":0
+    }
+  },
+  {
+    "id":"1518060986419",
+    "title":"Google Analytics",
+    "category":"APP_REVIEW",
+    "admin":{
+      "firstName":"Khosbayar",
+      "lastName":"Buyandalai",
+      "email":"hs.khosbayar@gmail.com",
+      "password":"Password",
+      "image":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAIAAgDGAAAAAQAAAAAAAAtJAAAAJDkxODZhNzRjLTQzMDktNDFhZS1iMzlmLTRlMjA2MzM5ZjUwOQ.jpg"
+    },
+    "coverImage":"http://localhost:8080/image/1518060654442.png",
+    "introParagraph":"Even those brand new to self-service business intelligence (BI) will likely have already heard of Google Analytics. Free to use, the product has made deep inroads for companies looking to leverage the benefits of both BI and data visualization, especially for customers specializing in marketing or advertising and working with website or mobile data. While many BI apps will let you analyze your website's performance data, Google Analytics' maturity and ease of access keeps it top-of-mind for many people. Indeed, it's so top-of-mind that many other BI apps, including Editors' Choice winners Microsoft Power BI and Tableau Desktop, connect to it. After all, in this age when companies live and die by click-throughs and other visitor metrics, who wouldn't turn to a faithful freemium like Google Analytics to track, mine, and analyze every moment of fame or flame?",
+    "attributes":[
+      {
+        "title":"Owner ",
+        "body":"Google"
+      },
+      {
+        "title":"Type",
+        "body":"Web analytics"
+      },
+      {
+        "title":"Launched",
+        "body":"November 14, 2005"
+      },
+      {
+        "title":"Free version available",
+        "body":"Yes"
+      }
+    ],
+    "sections":[
+      {
+        "title":"Multiple Versions",
+        "paragraph":"There is an enterprise version of Google Analytics, too, called Google Analytics 360, that I didn't test as part of this review. I didn't test it primarily because the main difference between freemium and premium at the time of this writing is the amount of data you can access. Google Analytics allows a maximum of 50,000 rows of exported data and 10 million \"hits\" per month. Hits are defined as pageviews, events, e-commerce transactions, and social actions on a website or mobile app. Meanwhile, Google Analytics 360 allows up to 3,000,000 rows of exported data and over 500 million \"hits\" per month. Data refreshes differ, too: For Google Analytics, the data can be refreshed every 24 hours or longer whereas the Premium version allows for more frequent refreshes at four hours or less.\n\nMost companies will find the freemium version suffices. However, if you're looking to scale to enormous data volumes, then the enterprise price tag may be worth it. But know it's a pricey option, rumored to start at the same price as its predecessor, Google Analytics Premium, which is about $150,000 per year according to a Quora discussion. Rumor is all we have at this point as Google hasn't published official pricing for Analytics 360 yet (since it's still in beta). Based on the response I received from Google's press team when I asked for enterprise pricing, if you want a true price, you'll have to contact Google for a quote.",
+        "images":[
+          "http://localhost:8080/image/1518060876701.jpg"
+        ]
+      },
+      {
+        "title":"Getting Started",
+        "paragraph":"The Google Analytics sign-up process is relatively easy. First, go online and sign up for Google Analytics, and then get a tracking code to paste on your website or mobile app pages. Shortly thereafter (usually a few hours), relevant data becomes available.\n\nWhen you sign up for the service, you'll be asked about data sharing—which, in this instance, means sharing your data with Google, not your coworkers—and those actions are selected by default. Carefully read and consider them before proceeding. Note that opting out doesn't necessarily opt you out of sharing any of your data. Google clearly states: \"If you disable this option, data can still flow to other Google products explicitly linked to Analytics.\"",
+        "images":[
+          "http://localhost:8080/image/1518060923645.jpg"
+        ]
+      },
+      {
+        "title":"The Discovery Process",
+        "paragraph":"Once you've signed up, the system will give you a Tracking ID code to add to the webpage or mobile page you want to analyze. If you're using a third-party web hosting provider such as GoDaddy$1.00 at GoDaddy - Shared, Wix$4.08 at Wix, or WordPressFree at Amazon, then you'll have to ask for instructions on how to set up Google Analytics on your website there.\n\nGoogle Analytics will also present you with additional session settings as well as a Universal Analytics tracking code that you can elect to implement as Dynamic Content or PHP, but both are optional. You'll also be offered the free Google Tag Manager tool. Use it if you're using multiple analytics or ad performance tools that need site tags as Tag Manager will allow you to quickly update tags and code snippets on different web sites or mobile apps. But be forewarned: Tags are a drag on marketing campaign speed. To be safe, install the Google Tag Assistant Recordings tool to instantly check to see if Google Analytics is working correctly on your website.\n\nYou can also link to a Search console to analyze search traffic to your website or mobile app and filter out activity within your organization so that information doesn't warp your analysis. An important note, however, is that this review is of the user interface (UI) as of this writing. Google says that Google Analytics will soon publish a UI update so things will likely change, presumably for the better. Google remains mum on any details so we'll need to wait for the update to see.\n\nAs it is, customization of dashboards, reports, shortcuts, and alerts are a matter of simple clicks on the UI as are specific reports ranging from real-time reads to audience, acquisition, behavior and conversion numbers, and trends. Drill-downs are found in menu pulldowns. These can all be used by simple clicks to discover insights once you have everything set up and the data starts coming in.",
+        "images":[
+          "http://localhost:8080/image/1518060977331.jpg"
+        ]
+      }
+    ],
+    "videoURL":"",
+    "viewCount":0,
+    "comments":[
+
+    ],
+    "publishedDate":1518060986419,
     "emotionPoints":{
       "1":0,
       "2":0,
