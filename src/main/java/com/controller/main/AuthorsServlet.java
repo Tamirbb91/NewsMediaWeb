@@ -20,9 +20,9 @@ public class AuthorsServlet extends HttpServlet {
         if (email != null) {
             List<News> news = ((NewsDAO) this.getServletContext().getAttribute("news")).newsList;
             List<News> filteredNews = new ArrayList<>();
-            for (News perNews : news) {
-                if (perNews.getAdmin().getEmail().equals(email)) {
-                    filteredNews.add(perNews);
+            for (int i = news.size() - 1; i >= 0; i--) {
+                if (news.get(i).getAdmin().getEmail().equals(email)) {
+                    filteredNews.add(news.get(i));
                 }
             }
             if (filteredNews.size() > 0) {
