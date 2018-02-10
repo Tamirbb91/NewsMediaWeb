@@ -7,14 +7,15 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="cu" uri="http://www.customtag.com" %>
 <html>
 <head>
     <title>Admin Panel</title>
-    <link rel="stylesheet" type="text/css" href="<c:url value="static/admin/css/edit.css"/>">
-    <link rel="icon" type="image/png" href="<c:url value="static/admin/image/announcement.png"/>">
-    <script src="<c:url value="static/admin/js/jquery.min.js"/>" type="text/javascript"></script>
-    <script src="<c:url value="static/admin/js/jquery.cookie.js"/>" type="text/javascript"></script>
-    <script type="text/javascript" src="<c:url value="static/admin/js/edit.js"/>"></script>
+    <link rel="stylesheet" type="text/css" href="<c:url value="/static/admin/css/edit.css"/>">
+    <link rel="icon" type="image/png" href="<c:url value="/static/admin/image/announcement.png"/>">
+    <script src="<c:url value="/static/admin/js/jquery.min.js"/>" type="text/javascript"></script>
+    <script src="<c:url value="/static/admin/js/jquery.cookie.js"/>" type="text/javascript"></script>
+    <script type="text/javascript" src="<c:url value="/static/admin/js/edit.js"/>"></script>
 </head>
 <body>
 <div id="header">
@@ -95,7 +96,6 @@
         <span>Update</span>
     </div>
 </div>
-<div id="toast">
-</div>
+<cu:toast/>
 </body>
 </html>

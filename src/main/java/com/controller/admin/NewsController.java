@@ -83,7 +83,6 @@ public class NewsController extends HttpServlet{
             NewsDAO s = ((NewsDAO) this.getServletContext().getAttribute("news"));
             s.addNews(news);
             this.getServletContext().setAttribute("news", s);
-            s.updateFile(mapper.writeValueAsString(news));
 
             out.print("{\"result\": \"success\",\"message\": \"News is published successfully.\"}");
             return;

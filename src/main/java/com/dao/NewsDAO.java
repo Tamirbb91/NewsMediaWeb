@@ -61,17 +61,6 @@ public class NewsDAO {
         }
     }
 
-    public void updateFile(String text){
-        try{
-            FileOutputStream outputStream = new FileOutputStream(this.getClass().getClassLoader().getResource("news.json").getFile(), true);
-            byte[] strToBytes = text.getBytes();
-            outputStream.write(strToBytes);
-            outputStream.close();
-        } catch (Exception e){
-            e.printStackTrace();
-        }
-    }
-
     public String generateId(){
        return ((Long) System.currentTimeMillis()).toString();
     }

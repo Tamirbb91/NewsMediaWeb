@@ -138,4 +138,9 @@
     <session-config>
         <session-timeout>30</session-timeout>
     </session-config>
+    
+    <context-param>
+        <param-name>upload_path</param-name>
+        <param-value>C:/Users/Tamir/IdeaProjects/NewsMediaWeb/src/main/resources/images</param-value>
+    </context-param>
 </web-app>

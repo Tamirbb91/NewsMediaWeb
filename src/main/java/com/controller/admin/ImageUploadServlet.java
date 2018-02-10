@@ -20,7 +20,8 @@ import java.util.stream.Collectors;
 public class ImageUploadServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String filename = this.getServletContext().getAttribute("upload_path") + req.getPathInfo();
+//        String filename = this.getServletContext().getAttribute("upload_path") + req.getPathInfo();
+        String filename = this.getServletContext().getInitParameter("upload_path") + req.getPathInfo();
         // retrieve mimeType dynamically
         String mime = this.getServletContext().getMimeType(filename);
         if (mime == null) {
@@ -52,7 +53,8 @@ public class ImageUploadServlet extends HttpServlet{
         try {
             List<FileItem> multiparts = new ServletFileUpload(
                     new DiskFileItemFactory()).parseRequest(req);
-            String uploadPath = this.getServletContext().getAttribute("upload_path").toString();
+//            String uploadPath = this.getServletContext().getAttribute("upload_path").toString();
+            String uploadPath = this.getServletContext().getInitParameter("upload_path");
             for (FileItem item : multiparts) {
                 if (!item.isFormField()) {
                     String name = new File(item.getName()).getName();

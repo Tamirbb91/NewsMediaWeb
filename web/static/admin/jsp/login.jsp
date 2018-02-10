@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="cu" uri="http://www.customtag.com" %>
 <html>
 <head>
     <title>Admin login</title>
@@ -28,7 +29,8 @@
             * <em>If you are not admin. Please dont try to login </em>
         </p>
     </div>
-    <div id="toast">
-    </div>
+    <cu:toast/>
+    <%--<div id="toast">--%>
+    <%--</div>--%>
 </body>
 </html>
