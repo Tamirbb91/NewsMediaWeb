@@ -1,7 +1,10 @@
 # NewsMediaWeb
 This project is for course project for CS472 Web Application Programming class at Maharishi University of Management.
+
 Professor: Rakesh Shrestha
+
 Developers: Tamir Batmunkh, Khosbayar Buyandalai
+
 Date: 05/Feb/2018 - 07/Feb/2018
 Project title: News Media Web site
 
